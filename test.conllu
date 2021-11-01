@@ -15,7 +15,7 @@
 12	,	,	PUNCT	,	_	15	punct	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	INDT	_	15	case	_	_
-14	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	a	o	DET	_	Gender=Fem|Number=Sing	15	det	_	_
 15	verdade	verdade	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
 17	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	cop	_	_
