@@ -11,7 +11,8 @@ with open("test_of_test.conllu", "w") as f:
         for token in token_list:
             if ((token['form'] in list_def_det) and 
                 token['upos'] == 'DET' and 
-                token['deprel'] == 'det'):
+                token['deprel'] == 'det' and
+                any([i['upos'] == 'NOUN' for i in token_list if i['id'] == token['head']])):
 
                 token['feats']['PronType'] = 'Art'             
         serialized = token_list.serialize()
