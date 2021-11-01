@@ -14,7 +14,7 @@
 9	digital	digital	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	_
 10-11	nos	_	_	_	_	_	_	_	_
 10	em	em	ADP	INDT	_	12	case	_	_
-11	os	o	DET	_	Gender=Masc|Number=Plur	12	det	_	_
+11	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Estados	Estados	PROPN	NN	Gender=Masc|Number=Plur	5	nmod	_	_
 13	Unidos	Unidos	PROPN	JJ	Gender=Masc|Number=Plur	12	flat:name	_	_
 14	seja	ser	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	25	advcl	_	_
@@ -73,7 +73,7 @@
 10	sociais	social	ADJ	JJ	Gender=Fem|Number=Plur	9	amod	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	INDT	_	13	case	_	_
-12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Capitol	Capitol	PROPN	NNP	Gender=Masc|Number=Sing	4	obl	_	_
 14	Hill	Hill	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	2	punct	_	_
@@ -115,7 +115,7 @@
 19	nomeado	_	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
-21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+21	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	GOP	GOP	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
 23	anunciou	anunciar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 24	que	que	SCONJ	IN	_	31	mark	_	SpaceAfter=No
@@ -296,12 +296,12 @@
 24	representantes	representante	NOUN	NN	Gender=Masc|Number=Plur	22	obj	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	INDT	_	27	case	_	_
-26	a	o	DET	_	Gender=Fem|Number=Sing	27	det	_	_
+26	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Uber	Uber	PROPN	NNP	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	31	punct	_	_
 29-30	da	_	_	_	_	_	_	_	ToDo=ex-adp-child
 29	de	de	ADP	INDT	_	31	case	_	_
-30	a	o	DET	_	Gender=Fem|Number=Sing	31	det	_	_
+30	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Motion	Motion	PROPN	NNP	Gender=Fem|Number=Sing	27	conj	_	_
 32	Picture	Picture	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	_
 33	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	_
@@ -310,7 +310,7 @@
 36	,	,	PUNCT	,	_	39	punct	_	_
 37-38	da	_	_	_	_	_	_	_	ToDo=ex-adp-child
 37	de	de	ADP	INDT	_	39	case	_	_
-38	a	o	DET	_	Gender=Fem|Number=Sing	39	det	_	_
+38	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	Consumer	Consumer	PROPN	NNP	Gender=Fem|Number=Sing	27	conj	_	_
 40	Technology	Technology	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat:name	_	_
 41	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat:name	_	_
@@ -331,7 +331,7 @@
 4	originalmente	originalmente	ADV	RB	_	5	advmod	_	_
 5	marcado	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 6	para	para	ADP	IN	_	8	case	_	_
-7	o	o	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
+7	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Clube	Clube	PROPN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 9	Metropolitano	Metropolitano	PROPN	JJ	Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
@@ -458,7 +458,7 @@
 15	metrô	metrô	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	o	o	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+17	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	NoMa	NoMa	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	que	_	PRON	WP	_	21	nsubj	_	_
@@ -490,7 +490,7 @@
 16	presidente	presidente	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	o	o	DET	_	Gender=Masc|Number=Sing	19	det	_	_
+18	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Georgetown	Georgetown	PROPN	NNP	Gender=Masc|Number=Sing	16	nmod	_	_
 20	BID	BID	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
@@ -745,7 +745,7 @@
 # text_en = She killed Andre Price III by pressing his face into an air mattress in her sitting room before trying to do the same to her daughter, Angel, police said.
 1	Ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 2	matou	matar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	o	o	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
+3	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Andre	Andre	PROPN	NNP	Gender=Masc|Number=Sing	2	obj	_	_
 5	Price	Price	PROPN	NNP	Gender=Masc|Number=Sing	4	flat:name	_	_
 6	III	_	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	Proper=True
@@ -1013,7 +1013,7 @@
 35	Keira	Keira	PROPN	NNP	Gender=Fem|Number=Sing	34	appos	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	INDT	_	39	case	_	_
-37	o	o	DET	_	Gender=Masc|Number=Sing	39	det	_	_
+37	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 38	que	_	ADP	IN	_	39	case	_	_
 39	Kiera	Kiera	PROPN	NNP	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No|ToDo=nmod
 40	.	.	PUNCT	.	_	25	punct	_	_
@@ -1063,7 +1063,7 @@
 2	analistas	analista	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	sugeriram	sugerir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 4	que	que	SCONJ	IN	_	9	mark	_	_
-5	a	o	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Huawei	Huawei	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 8	melhor	melhor	ADV	RBR	_	9	advmod	_	_
@@ -1077,7 +1077,7 @@
 15	retrocesso	retrocesso	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	a	o	DET	_	Gender=Fem|Number=Sing	18	det	_	_
+17	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Samsung	Samsung	PROPN	NNP	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -1103,14 +1103,14 @@
 15	Assistente	assistente	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	Proper=True
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	o	o	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+17	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Google	Google	PROPN	NNP	Gender=Masc|Number=Sing	15	nmod	_	_
 19	ou	_	CCONJ	CC	_	21	cc	_	_
 20	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Siri	siri	NOUN	NN	Gender=Masc|Number=Sing	15	conj	_	Proper=True
 22-23	da	_	_	_	_	_	_	_	_
 22	de	de	ADP	INDT	_	24	case	_	_
-23	a	o	DET	_	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Apple	Apple	PROPN	NNP	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -1162,10 +1162,10 @@
 2	pode	poder	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 3	ser	_	VERB	VB	_	0	root	_	_
 4	que	que	SCONJ	IN	_	12	mark	_	_
-5	a	o	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	BA	BA	PROPN	NNP	Gender=Fem|Number=Sing	12	nsubj	_	_
 7	e	e	CCONJ	CC	_	9	cc	_	_
-8	a	o	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	IAG	IAG	PROPN	NNP	Gender=Fem|Number=Sing	6	conj	_	_
 10	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
 11	tenham	_	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	12	aux	_	_
@@ -1188,7 +1188,7 @@
 3	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4-5	à	_	_	_	_	_	_	_	_
 4	a	a	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	_
 7	que	que	SCONJ	IN	_	8	mark	_	_
 8	seria	ser	VERB	VBC	Mood=Cnd|Number=Sing|Person=3	3	ccomp	_	_
@@ -1366,7 +1366,7 @@
 # text_en = Naturally China will be presenting plenty of other military hardware this week from attack helicopters to seaplanes.
 1	Naturalmente	naturalmente	ADV	RB	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	a	o	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
+3	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	China	China	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	irá	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	6	aux	_	_
 6	apresentar	_	VERB	VB	_	0	root	_	_
@@ -1392,7 +1392,7 @@
 # text_en = And with China set to become the world's biggest aviation market in the next decade, the show is an opportunity for Beijing to demonstrate its ambitions in civil aviation as well as defence.
 1	E	_	CCONJ	CC	_	28	discourse	_	_
 2	com	_	ADP	IN	_	4	case	_	_
-3	a	o	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
+3	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	China	China	PROPN	NNP	Gender=Fem|Number=Sing	28	nmod	_	ToDo=nmod
 5	pronta	pronto	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 6	para	para	ADP	IN	_	17	case	_	_
@@ -1464,7 +1464,7 @@
 19	fundadora	fundador	NOUN	NN	Gender=Fem|Number=Sing	16	appos	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
-21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+21	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Hack	Hack	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
 23	Forums	Forums	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	_	_
@@ -1509,13 +1509,13 @@
 18	sites	site	NOUN	NN	Gender=Masc|Number=Plur	17	obj	_	_
 19	populares	popular	ADJ	JJ	Gender=Masc|Number=Plur	18	amod	_	_
 20	como	como	ADP	IN	_	22	case	_	_
-21	o	o	DET	DT	Gender=Masc|Number=Sing	22	det	_	_
+21	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Reddit	Reddit	PROPN	NNP	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	_	_
-24	o	o	DET	DT	Gender=Masc|Number=Sing	25	det	_	_
+24	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Twitter	Twitter	PROPN	NNP	Gender=Masc|Number=Sing	22	conj	_	_
 26	e	e	CCONJ	CC	_	28	cc	_	_
-27	o	o	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
+27	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Spotify	Spotify	PROPN	NNP	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
 29	,	,	PUNCT	,	_	30	punct	_	_
 30	bem	bem	ADV	RB	_	33	cc	_	_
@@ -1555,7 +1555,7 @@
 2	estudo	estudo	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	UN	UN	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 6	sobre	_	ADP	IN	_	7	case	_	_
 7	planos	plano	NOUN	NN	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -1666,7 +1666,7 @@
 38	Ambiente	ambiente	NOUN	NN	Gender=Masc|Number=Sing	36	nmod	_	_
 39-40	da	_	_	_	_	_	_	_	_
 39	de	de	ADP	INDT	_	41	case	_	_
-40	a	o	DET	_	Gender=Fem|Number=Sing	41	det	_	_
+40	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	UN	UN	PROPN	NNP	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -1932,7 +1932,7 @@
 # sent_id = n01024016
 # text = O RHS recolheu comentários enviados por alunos e professores envolvidos na experiência.
 # text_en = The RHS collected comments sent in by schoolchildren and teachers involved in the experiment.
-1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
+1	O	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	RHS	RHS	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	recolheu	recolher	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	comentários	comentário	NOUN	NN	Gender=Masc|Number=Plur	3	obj	_	_
@@ -1990,7 +1990,7 @@
 # text_en = In China the hair is typically put in a chemical bath to remove the cuticle completely, Tarlo explains.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
-2	a	o	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	China	China	PROPN	NNP	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -2188,7 +2188,7 @@
 3	alguém	alguém	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
 4-5	na	_	_	_	_	_	_	_	_
 4	em	em	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Sony	Sony	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 7	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	_
 8	estava	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
@@ -2229,11 +2229,11 @@
 7	ações	ação	NOUN	NN	Gender=Fem|Number=Plur	5	obj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Crimeia	Crimeia	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
 15	que	_	PRON	WP	_	17	nsubj:pass	_	_
@@ -2291,7 +2291,7 @@
 12	leste	leste	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	15	case	_	_
-14	a	o	DET	_	Gender=Fem|Number=Sing	15	det	_	_
+14	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	12	punct	_	_
 17	fez	fazer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -2299,7 +2299,7 @@
 19	regulares	regular	ADJ	JJ	Gender=Fem|Number=Plur	18	amod	_	_
 20-21	à	_	_	_	_	_	_	_	_
 20	a	a	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Rússica	Rússica	PROPN	NNP	Gender=Fem|Number=Sing	18	nmod	_	_
 23-24	nos	_	_	_	_	_	_	_	_
 23	em	em	ADP	INDT	_	26	case	_	_
@@ -2373,7 +2373,7 @@
 6	contou	contar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7-8	à	_	_	_	_	_	_	_	_
 7	a	a	ADP	INDT	_	9	case	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Associated	Associated	PROPN	NNP	Gender=Fem|Number=Sing	6	obl	_	_
 10	Press	Press	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	9	flat	_	_
 11	que	que	SCONJ	IN	_	12	mark	_	_
@@ -2721,7 +2721,7 @@
 # text = Se o Donald Trump se tornar presidente, o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada que exista, para garantir que os negócios e os interesses canadenses estão representados em Washington.
 # text_en = "If Donald Trump becomes president, the government here will still have to work with him to advance whatever shared agenda there is, to ensure that Canadian businesses and interests are represented in Washington."
 1	Se	_	SCONJ	IN	_	7	mark	_	_
-2	o	o	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
+2	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Donald	Donald	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	Trump	Trump	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	_
 5	se	_	PRON	SE	Person=3	7	expl:pv	_	_
@@ -3040,7 +3040,7 @@
 4	multa	multa	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
 5	máxima	máximo	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 6	que	_	PRON	WP	_	10	obj	_	_
-7	a	o	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	RECO	RECO	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 9	pode	poder	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	_
 10	cobrar	_	VERB	VB	_	4	acl:relcl	_	_
@@ -3114,10 +3114,10 @@
 10	emissores	emissor	NOUN	NN	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	como	como	ADP	IN	_	14	case	_	_
-13	o	o	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
+13	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Brasil	Brasil	PROPN	NNP	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
-16	a	o	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	África	África	PROPN	NNP	Gender=Fem|Number=Sing	14	conj	_	_
 18-19	do	_	_	_	_	_	_	_	Proper=True
 18	de	de	ADP	INDT	_	20	case	_	_
@@ -3127,7 +3127,7 @@
 22	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Índia	índio	NOUN	NN	Gender=Fem|Number=Sing	14	conj	_	Proper=True
 24	e	e	CCONJ	CC	_	26	cc	_	_
-25	a	o	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
+25	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	China	China	PROPN	NNP	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	tendo	_	VERB	VBG	_	6	acl	_	_
@@ -3283,7 +3283,7 @@
 # text_en = Students like Rai have been meeting with counsellors at the school to talk about what happened, but she said the biggest comfort has come from seeing her friends.
 1	Estudantes	estudante	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj	_	_
 2	como	como	ADP	IN	_	4	case	_	_
-3	a	o	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
+3	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Rai	Rai	PROPN	NNP	Gender=Fem|Number=Sing	1	nmod	_	_
 5	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	aux	_	_
 6	se	_	PRON	SE	Person=3	7	expl:pv	_	_
@@ -3340,7 +3340,7 @@
 16	entrevista	entrevista	NOUN	NN	Gender=Fem|Number=Sing	11	obl	_	_
 17-18	à	_	_	_	_	_	_	_	_
 17	a	a	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	CBC	CBC	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	_
 20	News	News	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
@@ -3449,7 +3449,7 @@
 11	,	,	PUNCT	,	_	14	punct	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	INDT	_	14	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Facebook	Facebook	PROPN	NNP	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	alegadamente	alegadamente	ADV	RB	_	17	advmod	_	_
@@ -3839,7 +3839,7 @@
 9	ilimitados	ilimitado	ADJ	JJ	Gender=Masc|Number=Plur	8	amod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	SaskTel	SaskTel	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	Lindsay	Lindsay	PROPN	NNP	Gender=Fem|Number=Sing	6	appos	_	_
@@ -4465,7 +4465,7 @@
 5	audiências	audiência	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
-7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	CRTC	CRTC	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	_
 9	é	ser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	de	de	ADP	IN	_	11	case	_	_
@@ -4657,7 +4657,7 @@
 # text = Após a Carolina do Norte ter passado a sua lei que restringe o direito de voto em 2013, Campbell andou pelas igrejas ensinando às pessoas como lidar com as dificuldades no seu registro.
 # text_en = After North Carolina passed its restrictive voting-rights bill in 2013, Campbell went around to churches teaching people how to deal with challenges to their registration.
 1	Após	_	SCONJ	IN	_	8	mark	_	_
-2	a	o	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Carolina	Carolina	PROPN	NNP	Gender=Fem|Number=Sing	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	Proper=True
 4	de	de	ADP	INDT	_	6	case	_	_
@@ -4806,7 +4806,7 @@
 7	crescimento	crescimento	NOUN	NN	Gender=Masc|Number=Sing	3	ccomp	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
+9	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	G.D.P	G.D.P	PROPN	NNP	Gender=Masc|Number=Sing	7	nmod	_	OrigForm=GDP|ToDo=nmod
 11	durante	_	ADP	IN	_	13	case	_	_
 12	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -4964,7 +4964,7 @@
 21	,	,	PUNCT	,	_	18	punct	_	_
 22-23	à	_	_	_	_	_	_	_	_
 22	a	a	ADP	INDT	_	24	case	_	_
-23	a	o	DET	_	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Slate	Slate	PROPN	NNP	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	28	punct	_	_
 26-27	no	_	_	_	_	_	_	_	_
@@ -5247,7 +5247,7 @@
 23	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	faraó	faraó	NOUN	NN	Gender=Masc|Number=Sing	22	obj	_	_
 25	quando	_	SCONJ	IN	_	29	mark	_	_
-26	o	o	DET	DT	Gender=Masc|Number=Sing	27	det	_	_
+26	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Nilo	Nilo	PROPN	NNP	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	não	não	ADV	RB	Polarity=Neg	29	advmod	_	_
 29	inunda	inundar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	advcl	_	SpaceAfter=No
@@ -5475,7 +5475,7 @@
 25	saída	saída	NOUN	NN	Gender=Fem|Number=Sing	23	obj	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	INDT	_	28	case	_	_
-27	a	o	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+27	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	UE	UE	PROPN	NNP	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -5735,7 +5735,7 @@
 1	Ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	trabalhou	trabalhar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	para	para	ADP	IN	_	5	case	_	_
-4	a	o	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	2	obl	_	_
 6	por	por	ADP	IN	_	8	case	_	_
 7	uma	um	DET	CD	Gender=Fem	8	det	_	_
@@ -5758,7 +5758,7 @@
 8	lamento	lamento	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	INDT	_	11	case	_	_
-10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Facebook	Facebook	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	_
 12	tem	ter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 13	uma	um	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
@@ -5796,7 +5796,7 @@
 5	time	time	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
-7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 9	?	?	PUNCT	.	_	2	punct	_	_
 
@@ -5842,7 +5842,7 @@
 6	redenção	redenção	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
 8	vencendo	_	VERB	VBG	_	2	acl	_	_
-9	a	o	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Inglaterra	Inglaterra	PROPN	NNP	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -5851,7 +5851,7 @@
 # sent_id = n01074015
 # text = A África do Sul está quase em um beco sem saída e nós temos que conseguir alcançar suas expectativas.
 # text_en = South Africa are almost at the point of no return and we have to be able to match their desire.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	África	África	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
@@ -5975,7 +5975,7 @@
 # sent_id = n01075044
 # text = A Austrália, calejada pelos seus jogos recentes no Campeonato de Rugby, estava com uma velocidade superior.
 # text_en = Australia, hardened by their recent games in the Rugby Championship, were in a higher gear.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	calejada	_	VERB	VBN	Gender=Fem|Number=Sing	2	acl	_	_
@@ -6060,7 +6060,7 @@
 25	,	,	PUNCT	,	_	28	punct	_	_
 26-27	nos	_	_	_	_	_	_	_	_
 26	em	em	ADP	INDT	_	28	case	_	_
-27	os	o	DET	_	Gender=Masc|Number=Plur	28	det	_	_
+27	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -6133,7 +6133,7 @@
 3	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 4	entendo	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 5	que	que	SCONJ	IN	_	14	mark	_	_
-6	a	o	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Alemanha	Alemanha	PROPN	NNP	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 8-9	dos	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
@@ -6330,7 +6330,7 @@
 7	presidência	presidência	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 8	vá	ir	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
 9	para	para	ADP	IN	_	11	case	_	_
-10	o	o	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
+10	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Donald	Donald	PROPN	NNP	Gender=Masc|Number=Sing	8	obl	_	_
 12	Trump	Trump	PROPN	NNP	Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
@@ -6477,7 +6477,7 @@
 7	Banco	banco	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	Proper=True
 8-9	da	_	_	_	_	_	_	_	Proper=True
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Escócia	Escócia	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 11	ganham	ganhar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 12	3	_	NUM	CD	_	13	nummod	_	SpaceAfter=No
@@ -6779,7 +6779,7 @@
 19	jóias	jóia	NOUN	NN	Gender=Fem|Number=Plur	17	nmod	_	_
 20-21	na	_	_	_	_	_	_	_	_
 20	em	em	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Glasgow	Glasgow	PROPN	NNP	Gender=Fem|Number=Sing	16	obl	_	_
 23	School	School	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	22	flat	_	_
 24	of	of	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	22	flat	_	_
@@ -6840,7 +6840,7 @@
 6	que	que	SCONJ	IN	_	8	mark	_	_
 7	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 8	use	usar	VERB	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	5	ccomp	_	_
-9	a	o	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Frank	Frank	PROPN	NNP	Gender=Fem|Number=Sing	8	obj	_	_
 11	como	como	ADP	IN	_	13	case	_	_
 12	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	13	det	_	_
@@ -6884,7 +6884,7 @@
 # sent_id = n01089033
 # text = A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.
 # text_en = Wintour herself appears briefly, and is filmed putting her sunglasses on before being interviewed.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	própria	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	Wintour	Wintour	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	aparece	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -7061,7 +7061,7 @@
 2	postura	postura	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	RSPB	RSPB	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 6	também	também	ADV	RB	_	8	advmod	_	_
 7	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
@@ -7119,7 +7119,7 @@
 3	posição	posição	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	?	?	PUNCT	.	_	3	punct	_	_
 
@@ -7222,7 +7222,7 @@
 17	oficial	oficial	NOUN	NN	Gender=Masc|Number=Sing	15	nsubj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	INDT	_	20	case	_	_
-19	a	o	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	UE	UE	PROPN	NNP	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -7389,7 +7389,7 @@
 7	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	INDT	_	10	case	_	_
-9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
+9	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	EMicro	EMicro	PROPN	NNP	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -7748,7 +7748,7 @@
 16	Popular	popular	ADJ	JJ	Gender=Fem|Number=Sing	15	amod	_	Proper=True
 17-18	da	_	_	_	_	_	_	_	Proper=True
 17	de	de	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	China	China	PROPN	NNP	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -7839,13 +7839,13 @@
 2	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3-4	no	_	_	_	_	_	_	_	_
 3	em	em	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Andrew	Andrew	PROPN	NNP	Gender=Masc|Number=Sing	2	obl	_	_
 6	Marr	Marr	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	5	flat	_	_
 7	Show	Show	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	5	flat	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	BBC	BBC	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 11	:	:	PUNCT	:	_	20	punct	_	_
 12	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
@@ -8085,7 +8085,7 @@
 24	valor	valor	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	INDT	_	27	case	_	_
-26	a	o	DET	_	Gender=Fem|Number=Sing	27	det	_	_
+26	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	VW	VW	PROPN	NNP	Gender=Fem|Number=Sing	24	nmod	_	_
 28	e	e	CCONJ	CC	_	29	cc	_	_
 29	custou	custar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	conj	_	_
@@ -8111,7 +8111,7 @@
 1	Isso	_	PRON	PDEM	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	também	também	ADV	RB	_	3	advmod	_	_
 3	abriu	abrir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	a	o	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	VW	VW	PROPN	NNP	Gender=Fem|Number=Sing	3	obj	_	_
 6	para	para	ADP	IN	_	7	case	_	_
 7	reivindicações	reivindicação	NOUN	NN	Gender=Fem|Number=Plur	3	obl	_	_
@@ -8220,7 +8220,7 @@
 13	voto	voto	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Brexit	Brexit	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	mas	_	CCONJ	CC	_	24	cc	_	_
@@ -8342,7 +8342,7 @@
 3	fixa	fixo	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Eon	Eon	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 7	custa	custar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	£	_	SYM	SYM	_	7	obj	_	SpaceAfter=No
@@ -8352,7 +8352,7 @@
 12	clientes	cliente	NOUN	NN	Gender=Masc|Number=Plur	17	nsubj	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	15	case	_	_
-14	a	o	DET	_	Gender=Fem|Number=Sing	15	det	_	_
+14	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Avro	Avro	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	_
 16	Energy	Energy	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	15	flat	_	_
 17	pagariam	_	VERB	VBC	Mood=Cnd|Number=Plur|Person=3	7	conj	_	_
@@ -8425,7 +8425,7 @@
 3	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
 4	fizessem	fazer	VERB	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Past	10	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	a	o	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Premium	Premium	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 8	Bonds	Bonds	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	7	flat	_	_
 9	seria	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3	10	cop	_	_
@@ -8448,7 +8448,7 @@
 3	investido	_	VERB	VBN	Gender=Masc|Number=Sing	2	acl	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	INDT	_	6	case	_	_
-5	o	o	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Premium	Premium	PROPN	NNP	Gender=Masc|Number=Sing	3	obl	_	_
 7	Bonds	Bonds	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
@@ -8458,7 +8458,7 @@
 12	contas	conta	NOUN	NN	Gender=Fem|Number=Plur	6	conj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	15	case	_	_
-14	o	o	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+14	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	National	National	PROPN	NNP	Gender=Masc|Number=Sing	12	nmod	_	_
 16	Savings	Savings	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	15	flat	_	_
 17	&	&	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	15	flat	_	_
@@ -8580,7 +8580,7 @@
 # sent_id = n01112002
 # text = A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.
 # text_en = Adidas is helping to clean up the Earth's oceans by using the waste floating around the world to make shoes.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Adidas	Adidas	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
 4	ajudando	_	VERB	VBG	_	0	root	_	_
@@ -8702,7 +8702,7 @@
 # text_en = Warning that the NHS was now under "enormous pressure," he urged the public to take more responsibility for their own health.
 1	Advertindo	_	VERB	VBG	_	14	acl	_	_
 2	que	que	SCONJ	IN	_	5	mark	_	_
-3	o	o	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
+3	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	SNS	SNS	PROPN	NNP	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	ccomp	_	_
 6	agora	agora	ADV	RB	_	5	advmod	_	_
@@ -8758,7 +8758,7 @@
 20	o	o	DET	DT	Gender=Masc|Number=Sing	22	dep	_	_
 21	quão	quão	ADV	RB	_	22	advmod	_	_
 22	fria	_	NOUN	NN	Gender=Fem|Number=Sing	19	ccomp	_	_
-23	a	o	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Grã-Bretanha	Grã-Bretanha	PROPN	NNP	Gender=Fem|Number=Sing	22	nsubj	_	_
 25	pode	poder	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	aux	_	_
 26	ser	_	AUX	VB	_	22	cop	_	_
@@ -8822,7 +8822,7 @@
 2	começou	começar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3-4	no	_	_	_	_	_	_	_	_
 3	em	em	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	RSC	RSC	PROPN	NNP	Gender=Masc|Number=Sing	2	obl	_	_
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	INDT	_	8	case	_	_
@@ -8841,7 +8841,7 @@
 18	asilo	asilo	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	INDT	_	21	case	_	_
-20	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
+20	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Marat	Marat	PROPN	NNP	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 22	/	/	PUNCT	-	_	23	punct	_	SpaceAfter=No
 23	Sade	Sade	PROPN	NNP	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
@@ -9125,7 +9125,7 @@
 3	claro	claro	ADV	RB	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	tem	ter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	o	o	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
+6	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Bob	Bob	PROPN	NNP	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	uma	um	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
@@ -9204,7 +9204,7 @@
 2	história	história	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Doss	Doss	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 6	também	também	ADV	RB	_	7	advmod	_	_
 7	tem	ter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -9254,7 +9254,7 @@
 12	vez	vez	NOUN	NN	Gender=Fem|Number=Sing	5	ccomp	_	_
 13	que	que	SCONJ	IN	_	14	mark	_	_
 14	veríamos	_	VERB	VBC	Mood=Cnd|Number=Plur|Person=1	12	acl	_	_
-15	o	o	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
+15	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 16	desastrado	desastrado	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	antissocial	antissocial	ADJ	JJ	Gender=Masc|Number=Sing	16	conj	_	_
@@ -9834,7 +9834,7 @@
 6	pessoas	pessoa	NOUN	NN	Gender=Fem|Number=Plur	4	nmod	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	INDT	_	9	case	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Flórida	Flórida	PROPN	NNP	Gender=Fem|Number=Sing	12	obl	_	_
 10	já	já	ADV	RB	_	12	advmod	_	_
 11	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	12	aux	_	_
@@ -9863,7 +9863,7 @@
 2	liderança	liderança	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	GOP	GOP	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 6	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	aux:pass	_	_
 7	levada	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
@@ -9988,7 +9988,7 @@
 2	porta-voz	_	NOUN	NN	Number=Sing	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Harley	Harley	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 6	-	-	PUNCT	-	_	7	punct	_	Proper=True|SpaceAfter=No
 7	Davidson	Davidson	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
@@ -10090,7 +10090,7 @@
 17	locais	local	ADJ	JJ	Gender=Masc|Number=Plur	16	amod	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	INDT	_	20	case	_	_
-19	a	o	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	China	China	PROPN	NNP	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -10130,7 +10130,7 @@
 3	insaciável	insaciável	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	China	China	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 7	por	por	ADP	IN	_	8	case	_	_
 8	galinha	galinha	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -10150,7 +10150,7 @@
 21	pai	pai	NOUN	NN	Gender=Masc|Number=Sing	19	obj	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	INDT	_	24	case	_	_
-23	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+23	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	KFC	KFC	PROPN	NNP	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
 26	Yum	Yum	PROPN	NNP	Gender=Masc|Number=Sing	21	appos	_	_
@@ -10217,7 +10217,7 @@
 4	torna	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	advcl	_	_
 5	claro	claro	ADJ	JJ	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
-7	os	o	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
+7	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	Lovings	Lovings	PROPN	NNP	Gender=Masc|Number=Plur	16	nsubj	_	_
 9	--	--	PUNCT	-	_	10	punct	_	_
 10	e	e	CCONJ	CC	_	11	cc	_	_
@@ -10279,7 +10279,7 @@
 7	repórteres	repórter	NOUN	NN	Gender=Masc|Number=Plur	1	conj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	CNN	CNN	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 11	estão	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	aux	_	_
 12	se	_	PRON	SE	Person=3	13	expl:pv	_	_
@@ -10363,7 +10363,7 @@
 # sent_id = n01138017
 # text = O Norman é um dos meus melhores amigos, então foi péssimo vê-lo naquele estado emocional.
 # text_en = "Norman is one of my good buddies, so it totally sucked to see him in that emotional state."
-1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
+1	O	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Norman	Norman	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 4	um	_	NUM	CD	Gender=Masc	0	root	_	_
@@ -10492,7 +10492,7 @@
 # text_en = In the Netherlands, authorities have taken a lower-tech approach to tracking drones.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
-2	a	o	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Holanda	Holanda	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
@@ -10514,7 +10514,7 @@
 # sent_id = n01141002
 # text = A Microsoft anunciou, na quarta-feira, uma nova ferramenta de chat no local de trabalho, confiante de que vai tomar o lugar da querida empresa, Slack.
 # text_en = Microsoft announced on Wednesday a new workplace chat tool poised to take on industry darling Slack.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Microsoft	Microsoft	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	anunciou	anunciar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
@@ -10582,7 +10582,7 @@
 23	feed	_	NOUN	NN	Gender=Masc|Number=Sing	20	obj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	INDT	_	26	case	_	_
-25	o	o	DET	_	Gender=Masc|Number=Sing	26	det	_	_
+25	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Twitter	Twitter	PROPN	NNP	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -10709,7 +10709,7 @@
 3	tenho	_	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	aux	_	_
 4	que	_	ADP	IN	_	3	fixed	_	_
 5	felicitar	_	VERB	VB	_	0	root	_	_
-6	o	o	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
+6	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Andy	Andy	PROPN	NNP	Gender=Masc|Number=Sing	5	obj	_	_
 8	--	--	PUNCT	-	_	10	punct	_	_
 9	por	por	ADP	IN	_	10	case	_	_
@@ -10769,7 +10769,7 @@
 21	notícias	notícia	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	INDT	_	24	case	_	_
-23	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+23	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Brisbane's	Brisbane's	PROPN	NNP	Gender=Masc|Number=Sing	21	nmod	_	_
 25	Nine	Nine	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
@@ -10808,7 +10808,7 @@
 27	,	,	PUNCT	,	_	30	punct	_	_
 28-29	na	_	_	_	_	_	_	_	_
 28	em	em	ADP	INDT	_	30	case	_	_
-29	a	o	DET	_	Gender=Fem|Number=Sing	30	det	_	_
+29	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Coreia	Coreia	PROPN	NNP	Gender=Fem|Number=Sing	20	obl	_	_
 31-32	do	_	_	_	_	_	_	_	Proper=True
 31	de	de	ADP	INDT	_	33	case	_	_
@@ -10885,7 +10885,7 @@
 3	pensou	pensar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	nada	nada	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 5	sobre	_	ADP	IN	_	10	case	_	_
-6	o	o	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
+6	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Johnny	Johnny	PROPN	NNP	Gender=Masc|Number=Sing	10	nsubj	_	_
 8	Carson	Carson	PROPN	NNP	Gender=Masc|Number=Sing	7	flat:name	_	_
 9	ir	_	AUX	VB	_	10	aux	_	_
@@ -10941,7 +10941,7 @@
 2	um	um	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	evento	evento	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 4	que	_	PRON	WP	_	7	obj	_	_
-5	o	o	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	México	México	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	espera	esperar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	acl:relcl	_	_
 8	que	que	SCONJ	IN	_	12	mark	_	SpaceAfter=No
@@ -10956,7 +10956,7 @@
 16	Carnaval	carnaval	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	Proper=True
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	o	o	DET	_	Gender=Masc|Number=Sing	19	det	_	_
+18	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Brasil	Brasil	PROPN	NNP	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -10983,7 +10983,7 @@
 14	explicou	explicar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 15-16	à	_	_	_	_	_	_	_	_
 15	a	a	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	CNN	CNN	PROPN	NNP	Gender=Fem|Number=Sing	14	obl	_	_
 18	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	porquê	porquê	NOUN	NN	Gender=Masc|Number=Sing	14	obj	_	_
@@ -11094,7 +11094,7 @@
 21	econômico	econômico	ADJ	JJ	Gender=Masc|Number=Sing	20	amod	_	_
 22-23	no	_	_	_	_	_	_	_	_
 22	em	em	ADP	INDT	_	24	case	_	_
-23	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+23	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Japão	Japão	PROPN	NNP	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -11129,7 +11129,7 @@
 2	site	site	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Yas	Yas	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 6	Marina	Marina	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
 7	Circuit	Circuit	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
@@ -11184,7 +11184,7 @@
 9	arranha-céus	arranha-céu	NOUN	NN	Gender=Masc|Number=Plur	6	nmod	_	_
 10	--	--	PUNCT	-	_	14	punct	_	_
 11	como	como	ADP	IN	_	14	case	_	_
-12	o	o	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
+12	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	visionário	visionário	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
 14	MahaNakhon	MahaNakhon	PROPN	NNP	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
@@ -11262,7 +11262,7 @@
 2	falou	falar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3-4	à	_	_	_	_	_	_	_	_
 3	a	a	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	CNN	CNN	PROPN	NNP	Gender=Fem|Number=Sing	2	obl	_	_
 6	Style	Style	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
 7	sobra	_	ADP	IN	_	9	case	_	_
@@ -11501,7 +11501,7 @@
 18	totalidade	totalidade	NOUN	NN	Gender=Fem|Number=Sing	14	nmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	21	case	_	_
-20	a	o	DET	_	Gender=Fem|Number=Sing	21	det	_	_
+20	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Sibéria	Sibéria	PROPN	NNP	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -11541,7 +11541,7 @@
 9	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Pacífico	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	Proper=True
 11	e	e	CCONJ	CC	_	13	cc	_	_
-12	as	o	DET	DT	Gender=Fem|Number=Plur	13	det	_	_
+12	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	Maldivas	Maldivas	PROPN	NNP	Gender=Fem|Number=Plur	4	conj	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	INDT	_	16	case	_	_
@@ -11559,7 +11559,7 @@
 2	ilhas	ilha	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	graníticas	granítico	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
 4	incluem	incluir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-5	as	o	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
+5	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	Seicheles	Seicheles	PROPN	NNP	Gender=Fem|Number=Plur	4	obj	_	_
 7	e	e	CCONJ	CC	_	9	cc	_	_
 8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -11603,13 +11603,13 @@
 17	costa	costa	NOUN	NN	Gender=Fem|Number=Sing	14	nmod	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	INDT	_	21	case	_	_
-19	a	o	DET	_	Gender=Fem|Number=Sing	21	det	_	_
+19	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	Baixa	baixo	ADJ	JJ	Gender=Fem|Number=Sing	21	amod	_	Proper=True
 21	Califórnia	Califórnia	PROPN	NNP	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	_	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	INDT	_	25	case	_	_
-24	o	o	DET	_	Gender=Masc|Number=Sing	25	det	_	_
+24	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	México	México	PROPN	NNP	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -11642,7 +11642,7 @@
 19	cereais	cereal	NOUN	NN	Gender=Masc|Number=Plur	17	nmod	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Cítia	Cítia	PROPN	NNP	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	14	punct	_	_
 24	manteve	manter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -11690,7 +11690,7 @@
 17	conquistas	conquista	NOUN	NN	Gender=Fem|Number=Plur	14	nmod	_	_
 18-19	nos	_	_	_	_	_	_	_	_
 18	em	em	ADP	INDT	_	20	case	_	_
-19	os	o	DET	_	Gender=Masc|Number=Plur	20	det	_	_
+19	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	Balcãs	Balcãs	PROPN	NNP	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -11703,7 +11703,7 @@
 2	tropas	tropa	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	aquemênidas	aquemênida	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
 4	conquistaram	conquistar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	a	o	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Trácia	Trácia	PROPN	NNP	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -11711,10 +11711,10 @@
 10	costeiras	costeiro	ADJ	JJ	Gender=Fem|Number=Plur	9	amod	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
 14	e	e	CCONJ	CC	_	16	cc	_	_
-15	a	o	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Peônia	Peônia	PROPN	NNP	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -11754,7 +11754,7 @@
 28	vassalo	vassalo	ADJ	JJ	Gender=Masc|Number=Sing	27	amod	_	_
 29-30	à	_	_	_	_	_	_	_	_
 29	a	a	ADP	INDT	_	31	case	_	_
-30	a	o	DET	_	Gender=Fem|Number=Sing	31	det	_	_
+30	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Pérsia	Pérsia	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	_
 32	aquemênida	aquemênida	ADJ	JJ	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	14	punct	_	_
@@ -11773,7 +11773,7 @@
 7	soldados	soldado	NOUN	NN	Gender=Masc|Number=Plur	5	obj	_	_
 8-9	dos	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	os	o	DET	_	Gender=Masc|Number=Plur	10	det	_	_
+9	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	Balcãs	Balcãs	PROPN	NNP	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -11823,7 +11823,7 @@
 13	e	e	CCONJ	CC	_	14	cc	_	_
 14	em	em	ADP	IN	_	4	conj	_	orig_deprel=obl|ToDo=ex-adp-child
 15	1916	_	NUM	CD	Gender=Masc	14	obj	_	ToDo=pobj
-16	a	o	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Asty	Asty	PROPN	NNP	Gender=Fem|Number=Sing	14	orphan	_	orig_deprel=nsubj:pass
 18	Film	Film	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	17	flat	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
@@ -11981,14 +11981,14 @@
 14	processo	processo	NOUN	NN	Gender=Masc|Number=Sing	10	conj	_	_
 15	legal	legal	ADJ	JJ	Gender=Masc|Number=Sing	14	amod	_	_
 16	entre	_	ADP	IN	_	18	case	_	_
-17	a	o	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
+17	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Irlanda	Irlanda	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	Proper=True
 19	de	de	ADP	INDT	_	21	case	_	_
 20	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Norte	norte	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	Proper=True|SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
-23	a	o	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Inglaterra	Inglaterra	PROPN	NNP	Gender=Fem|Number=Sing	18	conj	_	_
 25	e	e	CCONJ	CC	_	27	cc	_	_
 26	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -12108,7 +12108,7 @@
 9	tribos	tribo	NOUN	NN	Gender=Fem|Number=Plur	4	conj	_	_
 10	eslavas	eslavo	ADJ	JJ	Gender=Fem|Number=Plur	9	amod	_	_
 11	atravessaram	atravessar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-12	a	o	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Morávia	Morávia	PROPN	NNP	Gender=Fem|Number=Sing	11	obj	_	_
 14	durante	_	ADP	IN	_	16	case	_	_
 15	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -12146,12 +12146,12 @@
 9	Principado	principado	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	Proper=True
 10-11	da	_	_	_	_	_	_	_	Proper=True
 10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Morávia	Morávia	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
 13	surgiu	surgir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 14-15	nas	_	_	_	_	_	_	_	_
 14	em	em	ADP	INDT	_	17	case	_	_
-15	as	o	DET	_	Gender=Fem|Number=Plur	17	det	_	_
+15	as	o	DET	_	Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 16	atuais	atual	ADJ	JJ	Gender=Fem|Number=Plur	17	amod	_	_
 17	Morávia	Morávia	PROPN	NNP	Gender=Fem|Number=Sing	13	obl	_	_
 18-19	do	_	_	_	_	_	_	_	_
@@ -12166,13 +12166,13 @@
 25	sudoeste	sudoeste	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	INDT	_	28	case	_	_
-27	a	o	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+27	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Eslováquia	Eslováquia	PROPN	NNP	Gender=Fem|Number=Sing	25	nmod	_	_
 29	e	e	CCONJ	CC	_	30	cc	_	_
 30	partes	_	NOUN	NN	Gender=Fem|Number=Plur	17	conj	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	INDT	_	34	case	_	_
-32	a	o	DET	_	Gender=Fem|Number=Sing	34	det	_	_
+32	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 33	Baixa	baixo	ADJ	JJ	Gender=Fem|Number=Sing	34	amod	_	Proper=True
 34	Áustria	Áustria	PROPN	NNP	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	13	punct	_	_
@@ -12193,7 +12193,7 @@
 9	estado	estado	NOUN	NN	Gender=Masc|Number=Sing	5	xcomp	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	13	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	Grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	Proper=True
 13	Morávia	Morávia	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	ToDo=nmod
 14	com	_	ADP	IN	_	16	case	_	_
@@ -12243,7 +12243,7 @@
 3	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	4	det	_	Proper=True
 4	Germânico	germânico	NOUN	NN	Gender=Masc|Number=Sing	1	appos	_	Proper=True
 5	invadiu	invadir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	a	o	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Morávia	Morávia	PROPN	NNP	Gender=Fem|Number=Sing	5	obj	_	_
 8	e	e	CCONJ	CC	_	9	cc	_	_
 9	substituiu	substituir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	conj	_	_
@@ -12297,7 +12297,7 @@
 # text = Embora a Islândia tenha estado sob controle político da Dinamarca até uma data muito mais avançada (1918), muito pouca influência e empréstimos linguísticos do Dinamarquês ocorreram na língua islandesa.
 # text_en = Although Iceland was under the political control of Denmark until a much later date (1918), very little influence and borrowing from Danish has occurred in the Icelandic language.
 1	Embora	_	SCONJ	IN	_	5	mark	_	_
-2	a	o	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Islândia	Islândia	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	tenha	_	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
 5	estado	_	VERB	VBN	_	31	advcl	_	_
@@ -12306,7 +12306,7 @@
 8	político	político	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
-10	a	o	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Dinamarca	Dinamarca	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 12	até	_	ADP	IN	_	14	case	_	_
 13	uma	um	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
@@ -12358,13 +12358,13 @@
 14	Meänkieli	_	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 15-16	na	_	_	_	_	_	_	_	_
 15	em	em	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Suécia	Suécia	PROPN	NNP	Gender=Fem|Number=Sing	14	nmod	_	_
 18	e	e	CCONJ	CC	_	19	cc	_	_
 19	Kven	_	NOUN	NN	Gender=Masc|Number=Sing	14	conj	_	_
 20-21	na	_	_	_	_	_	_	_	_
 20	em	em	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Noruega	Noruega	PROPN	NNP	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -12428,7 +12428,7 @@
 3	norte	norte	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	o	o	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Cáucaso	Cáucaso	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 7	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux:pass	_	_
 8	conhecida	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
@@ -12528,7 +12528,7 @@
 9	preparação	preparação	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	China	China	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	ToDo=nmod
 13	para	para	ADP	IN	_	15	case	_	_
 14	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -12564,7 +12564,7 @@
 14	Africano	africano	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	Proper=True
 15	Oriental	oriental	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	Proper=True|SpaceAfter=No
 16	,	,	PUNCT	,	_	1	punct	_	_
-17	a	o	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
+17	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	África	África	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	_
 19	Oriental	oriental	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	Proper=True
 20	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -12591,7 +12591,7 @@
 38	altos	alto	ADJ	JJ	Gender=Masc|Number=Plur	36	amod	_	_
 39-40	da	_	_	_	_	_	_	_	_
 39	de	de	ADP	INDT	_	41	case	_	_
-40	a	o	DET	_	Gender=Fem|Number=Sing	41	det	_	_
+40	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	África	África	PROPN	NNP	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -12641,7 +12641,7 @@
 # sent_id = w01018019
 # text = A França integrou a economia de Camarões na sua economia e melhorou as infraestruturas com investimentos de capital e mão-de-obra qualificada, modificando o sistema de trabalho forçado.
 # text_en = France integrated the economy of Cameroun with that of France and improved the infrastructure with capital investments and skilled workers, modifying the system of forced labour.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	França	França	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	integrou	integrar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -12850,7 +12850,7 @@
 10	margens	margem	NOUN	NN	Gender=Fem|Number=Plur	7	nmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
-12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	10	nmod	_	Proper=True
 14	e	e	CCONJ	CC	_	17	cc	_	_
 15	foram	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	aux:pass	_	_
@@ -12941,7 +12941,7 @@
 16	centradas	_	VERB	VBN	Gender=Fem|Number=Plur	15	acl	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	INDT	_	19	case	_	_
-18	o	o	DET	_	Gender=Masc|Number=Sing	19	det	_	_
+18	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	16	obl	_	Proper=True
 20	tendiam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 21	a	_	ADP	IN	_	26	case	_	_
@@ -12969,7 +12969,7 @@
 6	civilizações	civilização	NOUN	NN	Gender=Fem|Number=Plur	1	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	6	nmod	_	Proper=True
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	INDT	_	12	case	_	_
@@ -12981,7 +12981,7 @@
 16	cidades-estado	cidade-estado	NOUN	NN	Gender=Fem|Number=Plur	0	root	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	ToDo=nmod
 20	e	e	CCONJ	CC	_	22	cc	_	_
 21	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -12995,7 +12995,7 @@
 29	costeira	costeiro	ADJ	JJ	Gender=Fem|Number=Sing	28	amod	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	INDT	_	32	case	_	_
-31	o	o	DET	_	Gender=Masc|Number=Sing	32	det	_	_
+31	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	28	nmod	_	Proper=True|SpaceAfter=No
 33	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -13020,7 +13020,7 @@
 14	referiam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	INDT	_	17	case	_	_
-16	o	o	DET	_	Gender=Masc|Number=Sing	17	det	_	_
+16	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	14	obl	_	Proper=True
 18	como	como	ADP	IN	_	19	case	_	_
 19	Mare	Mare	PROPN	NNP	Gender=Masc|Number=Sing	14	obl	_	_
@@ -13039,7 +13039,7 @@
 # sent_id = w01022033
 # text = A Blindleia é um canal protegido por escolhos que começa perto de Kristiansand no sul da Noruega e continua após Lillesand.
 # text_en = The Blindleia is a skerry-protected waterway that starts near Kristiansand in southern Norway, and continues past Lillesand.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Blindleia	Blindleia	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	um	um	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -13058,7 +13058,7 @@
 16	sul	sul	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Noruega	Noruega	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	_
 20	e	e	CCONJ	CC	_	21	cc	_	_
 21	continua	continuar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	conj	_	_
@@ -13175,7 +13175,7 @@
 # sent_id = w01025083
 # text = O Schlei e as regiões alagadas entre Danevirke e Husum tinham congelado em invernos rigorosos e o território imediatamente a sul de Danevirke tinha sido conquistado pelo avanço do exército alemão.
 # text_en = The Schlei and the wetlands between the Danevirke and Husum had frozen solid in a hard winter, and the territory immediately south of the Danevirke had been conquered by the advancing German army.
-1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
+1	O	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Schlei	Schlei	PROPN	NNP	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	e	e	CCONJ	CC	_	5	cc	_	_
 4	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -13356,7 +13356,7 @@
 5	transportadas	_	VERB	VBN	Gender=Fem|Number=Plur	4	acl	_	_
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	INDT	_	8	case	_	_
-7	o	o	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+7	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Danúbio	Danúbio	PROPN	NNP	Gender=Masc|Number=Sing	5	obl	_	_
 9	aumentou	aumentar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10	para	para	ADP	IN	_	13	case	_	_
@@ -13384,12 +13384,12 @@
 6	delta	delta	NOUN	NN	Gender=Masc|Number=Sing	3	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Danúbio	Danúbio	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	_
 10	fica	ficar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Romênia	Romênia	PROPN	NNP	Gender=Fem|Number=Sing	10	obl	_	_
 14	(	(	PUNCT	(	_	15	punct	_	SpaceAfter=No
 15	distrito	distrito	NOUN	NN	Gender=Masc|Number=Sing	13	appos	_	_
@@ -13419,7 +13419,7 @@
 37	situada	_	VERB	VBN	Gender=Fem|Number=Sing	10	advcl	_	_
 38-39	na	_	_	_	_	_	_	_	_
 38	em	em	ADP	INDT	_	40	case	_	_
-39	a	o	DET	_	Gender=Fem|Number=Sing	40	det	_	_
+39	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	Ucrânia	Ucrânia	PROPN	NNP	Gender=Fem|Number=Sing	37	obl	_	_
 41	(	(	PUNCT	(	_	42	punct	_	SpaceAfter=No
 42	região	região	NOUN	NN	Gender=Fem|Number=Sing	40	appos	_	_
@@ -13449,7 +13449,7 @@
 13	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	5	advcl	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Saara	Saara	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|ToDo=nmod
 17	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -13492,7 +13492,7 @@
 2	norte	norte	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Argélia	Argélia	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 6	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 7-8	na	_	_	_	_	_	_	_	_
@@ -13550,7 +13550,7 @@
 8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	questão	questão	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 10	de	de	ADP	IN	_	13	case	_	_
-11	o	o	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
+11	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Kansas	Kansas	PROPN	NNP	Gender=Masc|Number=Sing	13	nsubj	_	_
 13	entrar	entrar	VERB	VB	_	9	acl	_	_
 14	para	para	ADP	IN	_	16	case	_	_
@@ -13581,7 +13581,7 @@
 6	eventos	evento	NOUN	NN	Gender=Masc|Number=Plur	2	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Kansas	Kansas	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	_
 10	demonstrou	demonstrar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 11	quão	quão	ADV	RB	_	13	advmod	_	_
@@ -13635,7 +13635,7 @@
 4	americanos	americano	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 5	por	por	ADP	IN	_	8	case	_	_
 6	toda	todo	ADJ	JJ	Gender=Fem|Number=Sing	8	amod	_	_
-7	a	o	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	América	América	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 9	confiavam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 10-11	nele	_	_	_	_	_	_	_	ToDo=pobj
@@ -13666,12 +13666,12 @@
 6	noroeste	noroeste	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	_
 10	e	e	CCONJ	CC	_	13	cc	_	ToDo=ex-adp-child
 11-12	da	_	_	_	_	_	_	_	ToDo=ex-adp-child
 11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Ucrânia	Ucrânia	PROPN	NNP	Gender=Fem|Number=Sing	6	conj	_	_
 14	muitas	_	DET	DT	Gender=Fem|Number=Plur	15	det	_	_
 15	vezes	vez	NOUN	NN	Gender=Fem|Number=Plur	16	obl	_	_
@@ -13703,7 +13703,7 @@
 # sent_id = w01030092
 # text = Os Alpes fornecem às terras baixas da Europa água potável, irrigação e energia hidroelétrica.
 # text_en = The Alps provide lowland Europe with drinking water, irrigation, and hydroelectric power.
-1	Os	o	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
+1	Os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Alpes	Alpes	PROPN	NNP	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	fornecem	fornecer	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4-5	às	_	_	_	_	_	_	_	_
@@ -13713,7 +13713,7 @@
 7	baixas	baixo	ADJ	JJ	Gender=Fem|Number=Plur	6	amod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	_
 11	água	água	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
 12	potável	potável	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
@@ -13746,10 +13746,10 @@
 14	superfície	superfície	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	5	punct	_	_
-19	os	o	DET	DT	Gender=Masc|Number=Plur	20	det	_	_
+19	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	Alpes	Alpes	PROPN	NNP	Gender=Masc|Number=Plur	21	nsubj	_	_
 21	fornecem	fornecer	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 22	até	até	ADV	RB	_	23	advmod	_	_
@@ -13766,7 +13766,7 @@
 32	baixas	baixo	ADJ	JJ	Gender=Fem|Number=Plur	31	amod	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	INDT	_	35	case	_	_
-34	a	o	DET	_	Gender=Fem|Number=Sing	35	det	_	_
+34	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	40	punct	_	_
 37	especialmente	especialmente	ADV	RB	_	40	advmod	_	ToDo=ex-adp-child
@@ -13807,7 +13807,7 @@
 16	vindo	_	VERB	VBN	Gender=Masc|Number=Sing	14	acl	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	os	o	DET	_	Gender=Masc|Number=Plur	19	det	_	_
+18	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	Alpes	Alpes	PROPN	NNP	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -13854,20 +13854,20 @@
 5	fluem	fluir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
-7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Suíça	Suíça	PROPN	NNP	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	como	como	ADP	IN	_	12	case	_	_
-11	o	o	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
+11	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Reno	Reno	PROPN	NNP	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
-14	o	o	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
+14	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Ródano	Ródano	PROPN	NNP	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
-17	o	o	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
+17	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Inn	Inn	PROPN	NNP	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
-20	o	o	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
+20	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Ticino	Ticino	PROPN	NNP	Gender=Masc|Number=Sing	12	conj	_	_
 22	e	e	CCONJ	CC	_	24	cc	_	_
 23	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -13878,7 +13878,7 @@
 28	nascentes	nascente	NOUN	NN	Gender=Fem|Number=Plur	26	nmod	_	_
 29-30	nos	_	_	_	_	_	_	_	_
 29	em	em	ADP	INDT	_	31	case	_	_
-30	os	o	DET	_	Gender=Masc|Number=Plur	31	det	_	_
+30	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	Alpes	Alpes	PROPN	NNP	Gender=Masc|Number=Plur	28	nmod	_	_
 32	e	e	CCONJ	CC	_	33	cc	_	ToDo=ex-adp-child
 33	correndo	_	VERB	VBG	_	28	conj	_	ToDo=ex-adp-child
@@ -13892,11 +13892,11 @@
 41	fim	fim	NOUN	NN	Gender=Masc|Number=Sing	40	fixed	_	_
 42-43	no	_	_	_	_	_	_	_	_
 42	em	em	ADP	INDT	_	44	case	_	_
-43	o	o	DET	_	Gender=Masc|Number=Sing	44	det	_	_
+43	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	39	obl	_	Proper=True
 45-46	do	_	_	_	_	_	_	_	Proper=True
 45	de	de	ADP	INDT	_	47	case	_	_
-46	o	o	DET	_	Gender=Masc|Number=Sing	47	det	_	_
+46	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Norte	Norte	PROPN	NN	Gender=Masc|Number=Sing	44	flat:name	_	Proper=True|SpaceAfter=No
 48	,	,	PUNCT	,	_	49	punct	_	_
 49	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
@@ -14085,7 +14085,7 @@
 6	família	família	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	INDT	_	9	case	_	_
-8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Kentucky	Kentucky	PROPN	NNP	Gender=Masc|Number=Sing	3	nmod	_	_
 10	e	e	CCONJ	CC	_	11	cc	_	_
 11	Indiana	indiano	NOUN	NN	Gender=Fem|Number=Sing	9	conj	_	Proper=True|SpaceAfter=No
@@ -14287,7 +14287,7 @@
 # sent_id = w01036044
 # text = A Papua Nova Guiné é frequentemente rotulada como potencialmente o pior lugar no mundo em relação à violência de gênero.
 # text_en = Papua New Guinea is often labelled as potentially the worst place in the world for gender violence.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Papua	Papua	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	Nova	novo	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	Proper=True
 4	Guiné	Guiné	PROPN	NNP	Gender=Fem|Number=Sing	2	appos	_	_
@@ -14327,7 +14327,7 @@
 7	presentes	presente	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Papua	Papua	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	_
 11	Nova	novo	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	Proper=True
 12	Guiné	Guiné	PROPN	NNP	Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
@@ -14339,14 +14339,14 @@
 # sent_id = w01037024
 # text = A América do Norte e a América do Sul são tratadas como continentes separados no modelo de sete continentes.
 # text_en = North America and South America are treated as separate continents in the seven-continent model.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	América	América	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
 4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Norte	norte	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	Proper=True
 6	e	e	CCONJ	CC	_	8	cc	_	_
-7	a	o	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	América	América	PROPN	NNP	Gender=Fem|Number=Sing	2	conj	_	_
 9-10	do	_	_	_	_	_	_	_	Proper=True
 9	de	de	ADP	INDT	_	11	case	_	_
@@ -14396,7 +14396,7 @@
 21	europeia	europeu	ADJ	JJ	Gender=Fem|Number=Sing	20	amod	_	_
 22-23	das	_	_	_	_	_	_	_	_
 22	de	de	ADP	INDT	_	24	case	_	_
-23	as	o	DET	_	Gender=Fem|Number=Plur	24	det	_	_
+23	as	o	DET	_	Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	Américas	Américas	PROPN	NNP	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -14462,7 +14462,7 @@
 6	região	região	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Alasca	Alasca	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	ToDo=nmod
 10	em	em	ADP	IN	_	11	case	_	_
 11	que	_	PRON	WP	_	17	obl	_	_
@@ -14493,7 +14493,7 @@
 2	povos	_	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	indígenas	indígena	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	ocuparam	ocupar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	o	o	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Alasca	Alasca	PROPN	NNP	Gender=Masc|Number=Sing	4	obj	_	_
 7	durante	_	ADP	IN	_	8	case	_	_
 8	milhares	_	NOUN	NN	Gender=Masc|Number=Plur	4	obl	_	_
@@ -14780,7 +14780,7 @@
 4	,	,	PUNCT	,	_	1	punct	_	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	INDT	_	7	case	_	_
-6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Tailândia	Tailândia	PROPN	NNP	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -14840,7 +14840,7 @@
 1	Em	_	ADP	IN	_	2	case	_	_
 2	1340	_	NUM	CD	Gender=Masc	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	o	o	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Cairo	Cairo	PROPN	NNP	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	tinha	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	uma	um	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
@@ -14861,7 +14861,7 @@
 22	oeste	oeste	NOUN	NN	Gender=Masc|Number=Sing	20	nmod	_	ToDo=nmod
 23-24	da	_	_	_	_	_	_	_	_
 23	de	de	ADP	INDT	_	25	case	_	_
-24	a	o	DET	_	Gender=Fem|Number=Sing	25	det	_	_
+24	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	China	China	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -14877,7 +14877,7 @@
 5	adicionais	adicional	ADJ	JJ	Gender=Masc|Number=Plur	4	amod	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
-7	o	o	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+7	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Nilo	Nilo	PROPN	NNP	Gender=Masc|Number=Sing	4	nmod	_	_
 9	fomentaram	fomentar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 10	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -14952,7 +14952,7 @@
 6	deriva	derivar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	os	o	DET	_	Gender=Masc|Number=Plur	9	det	_	_
+8	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	Caribs	Caribs	PROPN	NNP	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	um	_	NUM	CD	Gender=Masc	9	appos	_	_
@@ -14996,7 +14996,7 @@
 3	descoberta	_	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	América	América	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 7	por	por	ADP	IN	_	8	case	_	_
 8	Cristóvão	Cristóvão	PROPN	NNP	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -15038,7 +15038,7 @@
 41	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	36	nmod	_	Proper=True|ToDo=nmod
 42-43	do	_	_	_	_	_	_	_	Proper=True
 42	de	de	ADP	INDT	_	44	case	_	_
-43	o	o	DET	_	Gender=Masc|Number=Sing	44	det	_	_
+43	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
 45	"	"	PUNCT	''	_	41	punct	_	_
 46	em	em	ADP	IN	_	48	case	_	_
@@ -15091,7 +15091,7 @@
 13	região	região	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	_
 17	identificaram	identificar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 18	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -15115,7 +15115,7 @@
 34	istmo	istmo	NOUN	NN	Gender=Masc|Number=Sing	31	nmod	_	_
 35-36	do	_	_	_	_	_	_	_	_
 35	de	de	ADP	INDT	_	37	case	_	_
-36	o	o	DET	_	Gender=Masc|Number=Sing	37	det	_	_
+36	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Panamá	Panamá	PROPN	NNP	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
 38	)	)	PUNCT	)	_	27	punct	_	_
 39	por	por	ADP	IN	_	40	case	_	_
@@ -15135,7 +15135,7 @@
 51	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	44	appos	_	Proper=True
 52-53	do	_	_	_	_	_	_	_	Proper=True
 52	de	de	ADP	INDT	_	54	case	_	_
-53	o	o	DET	_	Gender=Masc|Number=Sing	54	det	_	_
+53	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
 55	,	,	PUNCT	,	_	57	punct	_	_
 56	a	_	ADP	IN	_	57	case	_	_
@@ -15157,7 +15157,7 @@
 2	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj:pass	_	Proper=True
 3-4	do	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 6	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
 7	sido	ser	AUX	VBN	_	8	aux:pass	_	_
@@ -15166,7 +15166,7 @@
 10	populações	população	NOUN	NN	Gender=Fem|Number=Plur	8	obl	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Eurásia	Eurásia	PROPN	NNP	Gender=Fem|Number=Sing	10	nmod	_	_
 14	até	_	ADP	IN	_	15	case	_	_
 15	1492	_	NUM	CD	Gender=Masc	8	obl	_	SpaceAfter=No
@@ -15181,7 +15181,7 @@
 24	águas	água	NOUN	NN	Gender=Fem|Number=Plur	21	obl	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	INDT	_	27	case	_	_
-26	o	o	DET	_	Gender=Masc|Number=Sing	27	det	_	_
+26	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	24	nmod	_	_
 28	em	em	ADP	IN	_	32	case	_	_
 29	busca	busca	NOUN	NN	Gender=Fem|Number=Sing	28	fixed	_	_
@@ -15190,7 +15190,7 @@
 32	rota	_	NOUN	NN	Gender=Fem|Number=Sing	21	obl	_	_
 33	marítima	marítimo	ADJ	JJ	Gender=Fem|Number=Sing	32	amod	_	_
 34	para	para	ADP	IN	_	36	case	_	_
-35	a	o	DET	DT	Gender=Fem|Number=Sing	36	det	_	_
+35	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Ásia	Ásia	PROPN	NNP	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -15490,13 +15490,13 @@
 # sent_id = w01049066
 # text = O Royal National Park da Austrália, fundado em 1879, foi o segundo parque nacional do mundo a ser oficialmente criado.
 # text_en = Australia's Royal National Park, established in 1879, was the world's second officially established national park.
-1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
+1	O	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Royal	Royal	PROPN	NNP	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	National	National	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	2	flat	_	_
 4	Park	Park	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	2	flat	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	INDT	_	7	case	_	_
-6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	fundado	_	VERB	VBN	Gender=Masc|Number=Sing	2	acl	_	_
@@ -15577,11 +15577,11 @@
 8	em	em	ADP	IN	_	9	case	_	_
 9	1911	_	NUM	CD	Gender=Masc	3	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	3	punct	_	_
-11	a	o	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Mongólia	Mongólia	PROPN	NNP	Gender=Fem|Number=Sing	17	nsubj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	15	case	_	_
-14	o	o	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+14	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Bogd	Bogd	PROPN	NNP	Gender=Masc|Number=Sing	12	nmod	_	_
 16	Khaan	Khaan	PROPN	NNP	Gender=Masc|Number=Sing	15	flat:name	_	_
 17	declarou	declarar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -15600,10 +15600,10 @@
 4	República	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	Proper=True
 5-6	da	_	_	_	_	_	_	_	Proper=True
 5	de	de	ADP	INDT	_	7	case	_	_
-6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	China	China	PROPN	NNP	Gender=Fem|Number=Sing	4	nmod	_	_
 8	considerou	considerar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-9	a	o	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Mongólia	Mongólia	PROPN	NNP	Gender=Fem|Number=Sing	8	obj	_	_
 11	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	8	xcomp	_	_
 12-13	do	_	_	_	_	_	_	_	_
@@ -15630,7 +15630,7 @@
 8	República	_	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	Proper=True
 9-10	da	_	_	_	_	_	_	_	Proper=True
 9	de	de	ADP	INDT	_	11	case	_	_
-10	a	o	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	China	China	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	5	punct	_	_
 13	considerou	considerar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -15643,7 +15643,7 @@
 20	sucessor	sucessor	NOUN	NN	Gender=Masc|Number=Sing	13	ccomp	_	_
 21-22	dos	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	23	case	_	_
-22	os	o	DET	_	Gender=Masc|Number=Plur	23	det	_	_
+22	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	Qing	Qing	PROPN	NNP	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|ToDo=nmod
 24	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -15657,10 +15657,10 @@
 3	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	que	que	SCONJ	IN	_	13	mark	_	_
 5	tanto	tanto	ADV	RB	_	7	cc:preconj	_	_
-6	a	o	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
+6	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Mongólia	Mongólia	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 8	como	_	CCONJ	CC	_	10	cc	_	_
-9	a	o	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	China	China	PROPN	NNP	Gender=Fem|Number=Sing	7	conj	_	_
 11	tinham	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	13	aux	_	_
 12	sido	ser	AUX	VBN	_	13	aux:pass	_	_
@@ -15670,7 +15670,7 @@
 15	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	manchus	manchu	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	_
 17	durante	_	ADP	IN	_	19	case	_	_
-18	os	o	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
+18	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	Qing	Qing	PROPN	NNP	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	43	punct	_	_
 21	e	e	CCONJ	CC	_	43	cc	_	_
@@ -15710,7 +15710,7 @@
 3	controlada	_	VERB	VBN	Gender=Fem|Number=Sing	2	acl	_	_
 4-5	pelo	_	_	_	_	_	_	_	_
 4	por	por	ADP	INDT	_	6	case	_	_
-5	o	o	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Bogd	Bogd	PROPN	NNP	Gender=Masc|Number=Sing	3	obl	_	_
 7	Khaan	Khaan	PROPN	NNP	Gender=Masc|Number=Sing	6	flat:name	_	_
 8	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	cop	_	_
@@ -15727,7 +15727,7 @@
 18	período	período	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	ToDo=nmod
 19-20	dos	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	21	case	_	_
-20	os	o	DET	_	Gender=Masc|Number=Plur	21	det	_	_
+20	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	Qing	Qing	PROPN	NNP	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -15811,7 +15811,7 @@
 11	regressou	regressar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 12-13	ao	_	_	_	_	_	_	_	_
 12	a	a	ADP	INDT	_	14	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Egito	Egito	PROPN	NNP	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -16071,7 +16071,7 @@
 9	antigas	antigo	ADJ	JJ	Gender=Fem|Number=Plur	7	amod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	13	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	Nova	novo	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	Proper=True
 13	França	França	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
 14	que	_	PRON	WP	_	19	nsubj:pass	_	_
@@ -16110,7 +16110,7 @@
 19	aplicados	_	VERB	VBN	Gender=Masc|Number=Plur	6	acl:relcl	_	_
 20	em	em	ADP	IN	_	23	case	_	_
 21	todo	todo	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
-22	o	o	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
+22	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	19	obl	_	Proper=True|SpaceAfter=No
 24	,	,	PUNCT	,	_	29	punct	_	_
 25	como	_	SCONJ	IN	_	29	mark	_	_
@@ -16122,11 +16122,11 @@
 31	partir	_	VERB	VB	_	30	fixed	_	_
 32-33	do	_	_	_	_	_	_	_	_
 32	de	de	ADP	INDT	_	30	fixed	_	_
-33	o	o	DET	_	Gender=Masc|Number=Sing	34	det	_	_
+33	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Lácio	Lácio	PROPN	NNP	Gender=Masc|Number=Sing	29	obl	_	_
 35	para	para	ADP	IN	_	38	case	_	_
 36	toda	todo	ADJ	JJ	Gender=Fem|Number=Sing	38	amod	_	_
-37	a	o	DET	DT	Gender=Fem|Number=Sing	38	det	_	_
+37	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -16372,7 +16372,7 @@
 16	Liao	Liao	PROPN	NNP	Gender=Fem|Number=Sing	15	appos	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	os	o	DET	_	Gender=Masc|Number=Plur	19	det	_	_
+18	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	Kitai	Kitai	PROPN	NNP	Gender=Masc|Number=Plur	15	nmod	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	INDT	_	22	case	_	_
@@ -16387,7 +16387,7 @@
 # sent_id = w01060041
 # text = Os Kitai tinham feito várias negociações agressivas no sentido de empurrar as suas fronteiras para o sul, enquanto manipulavam vários embaixadores chineses incompetentes que cederam às exigências do Reino Liao.
 # text_en = The Khitans had made several aggressive negotiations of pushing their borders south, while manipulating several incompetent Chinese ambassadors who conceded to the Liao Kingdom's demands.
-1	Os	o	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
+1	Os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Kitai	Kitai	PROPN	NNP	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	aux	_	_
 4	feito	_	VERB	VBN	_	0	root	_	_
@@ -16445,7 +16445,7 @@
 10	sul	sul	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	onde	onde	ADV	WRB	_	19	advmod	_	_
@@ -16587,7 +16587,7 @@
 6	partir	_	VERB	VB	_	5	fixed	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	5	fixed	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	2	obl	_	_
 10	continental	continental	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
@@ -16979,10 +16979,10 @@
 7	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	defesas	_	NOUN	NN	Gender=Fem|Number=Plur	6	obj	_	_
 9	entre	_	ADP	IN	_	11	case	_	_
-10	o	o	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
+10	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Egito	Egito	PROPN	NNP	Gender=Masc|Number=Sing	8	nmod	_	_
 12	e	e	CCONJ	CC	_	14	cc	_	_
-13	a	o	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Ásia	Ásia	PROPN	NNP	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	construindo	_	VERB	VBG	_	6	acl	_	_
@@ -17053,7 +17053,7 @@
 12	partes	_	NOUN	NN	Gender=Fem|Number=Plur	8	obj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	16	case	_	_
-14	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+14	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	baixo	baixo	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
 16	Egito	Egito	PROPN	NNP	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
@@ -17177,7 +17177,7 @@
 19	necessidades	necessidade	NOUN	NN	Gender=Fem|Number=Plur	16	nmod	_	ToDo=nmod
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Holanda	Holanda	PROPN	NNP	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -17235,7 +17235,7 @@
 7	Otomano	otomano	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	Proper=True
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	INDT	_	10	case	_	_
-9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
+9	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	3	nmod	_	Proper=True
 11	Mediterrâneo	Mediterrâneo	PROPN	JJ	Gender=Masc|Number=Sing	10	flat:name	_	Proper=True
 12	colocou	colocar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -17253,7 +17253,7 @@
 24	rebeldes	rebelde	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	_
 25-26	na	_	_	_	_	_	_	_	_
 25	em	em	ADP	INDT	_	27	case	_	_
-26	a	o	DET	_	Gender=Fem|Number=Sing	27	det	_	_
+26	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Holanda	Holanda	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -17692,7 +17692,7 @@
 12	apareceram	aparecer	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	INDT	_	15	case	_	_
-14	a	o	DET	_	Gender=Fem|Number=Sing	15	det	_	_
+14	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Gazette	Gazette	PROPN	NNP	Gender=Fem|Number=Sing	12	obl	_	_
 16	entre	_	ADP	IN	_	17	case	_	_
 17	novembro	novembro	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
@@ -18191,7 +18191,7 @@
 # sent_id = w01079077
 # text = A Espanha tinha expulsado a sua população sefardita em 1492; muitos desses judeus espanhóis trocaram Espanha por Portugal, mas acabaram por ser alvos lá também.
 # text_en = Spain had expelled its Sephardic population in 1492; many of these Spanish Jews left Spain for Portugal but eventually were targeted there as well.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Espanha	Espanha	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux	_	_
 4	expulsado	_	VERB	VBN	_	0	root	_	_
@@ -18233,10 +18233,10 @@
 3	oriental	oriental	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Macedônia	Macedônia	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 7	com	_	ADP	IN	_	9	case	_	_
-8	a	o	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Trácia	Trácia	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 10	estava	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
 11	agora	agora	ADV	RB	_	12	advmod	_	_
@@ -18275,7 +18275,7 @@
 # text_en = In Thessaly he defeated his enemies and by 352, he was firmly in control of this region.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
-2	a	o	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Tessália	Tessália	PROPN	NNP	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -18314,12 +18314,12 @@
 8	passagem	passagem	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 9-10	das	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
-10	as	o	DET	_	Gender=Fem|Number=Plur	11	det	_	_
+10	as	o	DET	_	Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	Termópilas	Termópilas	PROPN	NNP	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	que	_	PRON	WP	_	14	nsubj	_	_
 14	divide	dividir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	acl:relcl	_	_
-15	a	o	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	14	obj	_	_
 17	em	em	ADP	IN	_	19	case	_	_
 18	duas	_	NUM	CD	Gender=Fem	19	nummod	_	_
@@ -18359,7 +18359,7 @@
 5	fronteiriças	fronteiriço	ADJ	JJ	Gender=Fem|Number=Plur	4	amod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
-7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Macedônia	Macedônia	PROPN	NNP	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	2	punct	_	_
 10	Filipe	Filipe	PROPN	NNP	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -18375,7 +18375,7 @@
 20	interior	interior	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	23	case	_	_
-22	a	o	DET	_	Gender=Fem|Number=Sing	23	det	_	_
+22	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Trácia	Trácia	PROPN	NNP	Gender=Fem|Number=Sing	20	nmod	_	_
 24	para	para	ADP	IN	_	27	case	_	_
 25	uma	um	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
@@ -18394,7 +18394,7 @@
 1	Catarina	Catarina	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	Proper=True
 2	de	de	ADP	INDT	_	4	case	_	_
-3	a	o	DET	_	Gender=Fem|Number=Sing	4	det	_	_
+3	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	1	nmod	_	_
 5	também	também	ADV	RB	_	6	advmod	_	_
 6	ficou	ficar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -18439,7 +18439,7 @@
 6	monarquia	monarquia	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
-8	os	o	DET	_	Gender=Masc|Number=Plur	9	det	_	_
+8	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	Romanov	Romanov	PROPN	NNP	Gender=Masc|Number=Plur	6	nmod	_	_
 10	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	obj	_	_
 11	cegou	cegar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -18623,7 +18623,7 @@
 23	preparação	preparação	NOUN	NN	Gender=Fem|Number=Sing	21	nmod	_	_
 24-25	na	_	_	_	_	_	_	_	_
 24	em	em	ADP	INDT	_	26	case	_	_
-25	a	o	DET	_	Gender=Fem|Number=Sing	26	det	_	_
+25	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Flórida	Flórida	PROPN	NNP	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -18648,7 +18648,7 @@
 13	Exército	exército	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	Proper=True
 14-15	dos	_	_	_	_	_	_	_	Proper=True
 14	de	de	ADP	INDT	_	16	case	_	_
-15	os	o	DET	_	Gender=Masc|Number=Plur	16	det	_	_
+15	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	)	_	7	punct	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
@@ -18664,7 +18664,7 @@
 4	de	de	ADP	IN	_	5	case	_	_
 5	paz	paz	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
-7	a	o	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Espanha	Espanha	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj	_	_
 9	cedeu	ceder	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10-11	aos	_	_	_	_	_	_	_	_
@@ -18705,7 +18705,7 @@
 13	partir	_	VERB	VB	_	12	fixed	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	12	fixed	_	_
-15	a	o	DET	_	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	França	França	PROPN	NNP	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -18884,7 +18884,7 @@
 # text = Como a Grécia enviou colônias para oeste em direção à Sicília e Itália (Pithekoussae, Cumae), a influência do seu novo alfabeto se estendeu ainda mais.
 # text_en = As Greece sent out colonies west towards Sicily and Italy (Pithekoussae, Cumae), the influence of their new alphabet extended further.
 1	Como	_	SCONJ	IN	_	4	mark	_	_
-2	a	o	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	enviou	enviar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	29	advcl	_	_
 5	colônias	colônia	NOUN	NN	Gender=Fem|Number=Plur	4	obj	_	_
@@ -18894,7 +18894,7 @@
 9	direção	direção	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
 10-11	à	_	_	_	_	_	_	_	_
 10	a	a	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Sicília	Sicília	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
 13	e	e	CCONJ	CC	_	14	cc	_	_
 14	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	12	conj	_	_
@@ -18945,7 +18945,7 @@
 17	provavelmente	provavelmente	ADV	RB	_	20	advmod	_	ToDo=ex-adp-child
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	INDT	_	20	case	_	_
-19	a	o	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Papua	Papua	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	_
 21	Nova	novo	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	Proper=True
 22	Guiné	Guiné	PROPN	NNP	Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
@@ -18955,7 +18955,7 @@
 26	novamente	novamente	ADV	RB	_	25	advmod	_	_
 27-28	na	_	_	_	_	_	_	_	_
 27	em	em	ADP	INDT	_	29	case	_	_
-28	a	o	DET	_	Gender=Fem|Number=Sing	29	det	_	_
+28	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	África	África	PROPN	NNP	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	32	punct	_	_
 31	possivelmente	possivelmente	ADV	RB	_	32	advmod	_	_
@@ -19012,7 +19012,7 @@
 11	provocada	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 12-13	pelo	_	_	_	_	_	_	_	_
 12	por	por	ADP	INDT	_	15	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	escocês	escocês	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	_
 15	James	James	PROPN	NNP	Gender=Masc|Number=Sing	11	obl	_	_
 16	Watt	Watt	PROPN	NNP	Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
@@ -19059,7 +19059,7 @@
 13	local	local	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Peloponeso	Peloponeso	PROPN	NNP	Gender=Masc|Number=Sing	9	obl	_	_
 17	e	e	CCONJ	CC	_	20	cc	_	ToDo=ex-adp-child
 18-19	no	_	_	_	_	_	_	_	ToDo=ex-adp-child
@@ -19068,7 +19068,7 @@
 20	resto	resto	NOUN	NN	Gender=Masc|Number=Sing	16	conj	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	23	case	_	_
-22	a	o	DET	_	Gender=Fem|Number=Sing	23	det	_	_
+22	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -19121,14 +19121,14 @@
 9	compacto	compacto	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	American	American	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	_
 13	Motors	Motors	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	12	flat	_	_
 14	estimulou	estimular	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-15	a	o	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	GM	GM	PROPN	NNP	Gender=Fem|Number=Sing	21	nsubj	_	_
 17	e	e	CCONJ	CC	_	19	cc	_	_
-18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Ford	Ford	PROPN	NNP	Gender=Fem|Number=Sing	16	conj	_	_
 20	a	_	ADP	IN	_	21	case	_	_
 21	introduzirem	_	VERB	VBI	Number=Plur|Person=3	14	xcomp	_	_
@@ -19304,7 +19304,7 @@
 1	Fora	fora	ADV	RB	_	17	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	INDT	_	4	case	_	_
-3	o	o	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+3	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Japão	Japão	PROPN	NNP	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	começando	_	VERB	VBG	_	17	acl	_	_
@@ -19342,7 +19342,7 @@
 # text_en = In Asia and the Pacific, between 3 million and more than 10 million civilians, mostly Chinese (estimated at 7.5 million), were killed by the Japanese occupation forces.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
-2	a	o	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Ásia	Ásia	PROPN	NNP	Gender=Fem|Number=Sing	33	obl	_	_
 4	e	e	CCONJ	CC	_	7	cc	_	ToDo=ex-adp-child
 5-6	no	_	_	_	_	_	_	_	ToDo=ex-adp-child
@@ -19392,7 +19392,7 @@
 # text_en = In Europe, before the outbreak of the war, the Allies had significant advantages in both population and economics.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
-2	a	o	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	antes	antes	ADV	RB	_	15	advmod	_	_
@@ -19535,7 +19535,7 @@
 17	ascendência	ascendência	NOUN	NN	Gender=Fem|Number=Sing	14	nmod	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	INDT	_	20	case	_	_
-19	a	o	DET	_	Gender=Fem|Number=Sing	20	det	_	_
+19	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Ásia	Ásia	PROPN	NNP	Gender=Fem|Number=Sing	17	nmod	_	_
 21-22	do	_	_	_	_	_	_	_	Proper=True
 21	de	de	ADP	INDT	_	23	case	_	_
@@ -19613,7 +19613,7 @@
 1	Em	_	ADP	IN	_	2	case	_	_
 2	1839	_	NUM	CD	Gender=Masc	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	a	o	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	China	China	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	se	_	PRON	SE	Person=3	7	expl:pv	_	_
 7	encontrava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -19626,7 +19626,7 @@
 13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Ópio	ópio	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	Proper=True
 15	com	_	ADP	IN	_	17	case	_	_
-16	a	o	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Grã-Bretanha	Grã-Bretanha	PROPN	NNP	Gender=Fem|Number=Sing	8	obl	_	_
 18	depois	depois	ADV	RB	_	8	advmod	_	_
 19	de	de	ADP	IN	_	30	case	_	_
@@ -19653,7 +19653,7 @@
 # sent_id = w01100047
 # text = A China foi derrotada e em 1842 concordou com as disposições do Tratado de Nanquim.
 # text_en = China was defeated, and in 1842 agreed to the provisions of the Treaty of Nanking.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	China	China	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux:pass	_	_
 4	derrotada	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
@@ -19686,7 +19686,7 @@
 7	cedida	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
 8-9	à	_	_	_	_	_	_	_	_
 8	a	a	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Grã-Bretanha	Grã-Bretanha	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	22	punct	_	_
 12	e	e	CCONJ	CC	_	22	cc	_	_
@@ -19887,7 +19887,7 @@
 7	oficial	oficial	NOUN	NN	Gender=Masc|Number=Sing	6	xcomp	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	SS	SS	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	ToDo=nmod
 11	e	e	CCONJ	CC	_	12	cc	_	_
 12	liderou	liderar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	_
@@ -19895,7 +19895,7 @@
 14	paramilitares	_	NOUN	NN	Gender=Masc|Number=Plur	12	obj	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Milice	Milice	PROPN	NNP	Gender=Fem|Number=Sing	14	nmod	_	_
 18	que	_	PRON	WP	_	19	nsubj	_	_
 19	perseguiram	perseguir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	14	acl:relcl	_	_
@@ -20070,7 +20070,7 @@
 33	pós-guerra	_	NOUN	NN	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	27	punct	_	_
 35	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	37	cop	_	_
-36	o	o	DET	DT	Gender=Masc|Number=Sing	37	det	_	_
+36	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Ground	Ground	PROPN	NNP	Gender=Masc|Number=Sing	0	root	_	_
 38	Controlled	Controlled	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	37	flat	_	_
 39	Approach	Approach	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	37	flat	_	_
@@ -20098,7 +20098,7 @@
 12	bem	bem	ADV	RB	_	13	advmod	_	_
 13	alta	alto	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	1	punct	_	_
-15	o	o	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	GCA	GCA	PROPN	NNP	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	permite	permitir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 18	que	que	SCONJ	IN	_	24	mark	_	_
@@ -20232,7 +20232,7 @@
 11	Libertação	libertação	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	Proper=True
 12-13	do	_	_	_	_	_	_	_	Proper=True
 12	de	de	ADP	INDT	_	14	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Congo	Congo	PROPN	NN	Gender=Masc|Number=Sing	11	nmod	_	Proper=True
 15	capturaram	capturar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 16	Lubumbashi	Lubumbashi	PROPN	NNP	Gender=Fem|Number=Sing	15	obj	_	_
@@ -20502,7 +20502,7 @@
 8	matriculou	matricular	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	INDT	_	11	case	_	_
-10	a	o	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+10	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Corona	Corona	PROPN	NNP	Gender=Fem|Number=Sing	8	obl	_	_
 12	Stage	Stage	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	11	flat	_	_
 13	Academy	Academy	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	11	flat	_	_
@@ -20561,7 +20561,7 @@
 # sent_id = w01112060
 # text = A Disney também descobriu que a Universal detinha os direitos de propriedade intelectual de Oswald.
 # text_en = Disney also found out that Universal owned the intellectual property rights to Oswald.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	também	também	ADV	RB	_	4	advmod	_	_
 4	descobriu	descobrir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -20583,7 +20583,7 @@
 # sent_id = w01112098
 # text = A Disney ganhou outro Prêmio Honorário da Academia, que consistia em uma estatueta do Oscar de tamanho normal e sete em miniatura.
 # text_en = Disney won another Honorary Academy Award, which consisted of one full-sized and seven miniature Oscar statuettes.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	ganhou	ganhar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	outro	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
@@ -20601,7 +20601,7 @@
 15	estatueta	estatueta	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	o	o	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+17	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Oscar	Oscar	PROPN	NNP	Gender=Masc|Number=Sing	15	nmod	_	_
 19	de	de	ADP	IN	_	20	case	_	_
 20	tamanho	tamanho	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -20816,7 +20816,7 @@
 13	de	de	ADP	IN	_	14	case	_	_
 14	teatro	teatro	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	_
 15	para	para	ADP	IN	_	17	case	_	_
-16	o	o	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
+16	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Edinburgh	Edinburgh	PROPN	NNP	Gender=Masc|Number=Sing	11	obl	_	_
 18	Evening	Evening	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	17	flat	_	_
 19	Courant	Courant	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
@@ -20859,7 +20859,7 @@
 10	irmã	irmão	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	INDT	_	13	case	_	_
-12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	The	The	PROPN	NNP	Gender=Masc|Number=Sing	6	obl	_	_
 14	Scotsman	Scotsman	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	1	punct	_	_
@@ -20875,7 +20875,7 @@
 25	contratado	contratado	ADJ	JJ	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26-27	no	_	_	_	_	_	_	_	_
 26	em	em	ADP	INDT	_	28	case	_	_
-27	o	o	DET	_	Gender=Masc|Number=Sing	28	det	_	_
+27	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Nottingham	Nottingham	PROPN	NNP	Gender=Masc|Number=Sing	24	nmod	_	_
 29	Journal	Journal	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	28	flat	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	17	punct	_	_
@@ -20933,7 +20933,7 @@
 16	Terra	terra	NOUN	NN	Gender=Fem|Number=Sing	9	conj	_	Proper=True
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	América	América	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	_
 20-21	do	_	_	_	_	_	_	_	Proper=True
 20	de	de	ADP	INDT	_	22	case	_	_
@@ -21106,7 +21106,7 @@
 14	branca	branco	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	ToDo=nmod
 18	em	em	ADP	IN	_	19	case	_	_
 19	contraste	contraste	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	ToDo=nmod
@@ -21199,7 +21199,7 @@
 31	comunista	comunista	ADJ	JJ	Gender=Masc|Number=Sing	30	amod	_	_
 32-33	na	_	_	_	_	_	_	_	_
 32	em	em	ADP	INDT	_	34	case	_	_
-33	a	o	DET	_	Gender=Fem|Number=Sing	34	det	_	_
+33	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Polônia	Polônia	PROPN	NNP	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -21244,7 +21244,7 @@
 32	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	25	conj	_	_
 33-34	nos	_	_	_	_	_	_	_	_
 33	em	em	ADP	INDT	_	35	case	_	_
-34	os	o	DET	_	Gender=Masc|Number=Plur	35	det	_	_
+34	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -21269,7 +21269,7 @@
 11	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	12	det	_	_
 12	país	país	NOUN	NN	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	15	punct	_	_
-14	a	o	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
+14	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	2	punct	_	_
 17	Geyer	Geyer	PROPN	NNP	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -21313,7 +21313,7 @@
 11	lugar	lugar	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	14	case	_	_
-13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Billboard	Billboard	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
 15	200	_	NUM	CD	Gender=Masc	14	appos	_	Proper=True|SpaceAfter=No
 16	,	,	PUNCT	,	_	1	punct	_	_
@@ -21438,7 +21438,7 @@
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	permitindo	_	VERB	VBG	_	6	acl	_	_
 11	que	que	SCONJ	IN	_	18	mark	_	_
-12	os	o	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
+12	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	Tories	Tories	PROPN	NNP	Gender=Masc|Number=Plur	18	nsubj	_	_
 14	liderados	_	VERB	VBN	Gender=Masc|Number=Plur	13	acl	_	_
 15	por	por	ADP	IN	_	16	case	_	_
@@ -21727,7 +21727,7 @@
 23	campeão	campeão	NOUN	NN	Gender=Masc|Number=Sing	4	acl	_	_
 24-25	da	_	_	_	_	_	_	_	_
 24	de	de	ADP	INDT	_	26	case	_	_
-25	a	o	DET	_	Gender=Fem|Number=Sing	26	det	_	_
+25	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	NASCAR	NASCAR	PROPN	NNP	Gender=Fem|Number=Sing	23	nmod	_	ToDo=nmod
 27	Winston	Winston	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	26	flat	_	_
 28	Cup	Cup	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	26	flat	_	_
@@ -21805,7 +21805,7 @@
 16	colega	colega	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	os	o	DET	_	Gender=Masc|Number=Plur	19	det	_	_
+18	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	Stealers	Stealers	PROPN	NNP	Gender=Masc|Number=Plur	16	nmod	_	_
 20	Wheel	Wheel	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Plur	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
@@ -21843,7 +21843,7 @@
 20	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
 21	assinado	_	VERB	VBN	_	8	acl:relcl	_	_
 22	com	_	ADP	IN	_	24	case	_	_
-23	a	o	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Decca	Decca	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	_
 25	Records	Records	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	24	flat	_	_
 26-27	na	_	_	_	_	_	_	_	_
@@ -21871,7 +21871,7 @@
 9	canção	canção	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
 10-11	dos	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	12	case	_	_
-11	os	o	DET	_	Gender=Masc|Number=Plur	12	det	_	_
+11	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	Humblebums	Humblebums	PROPN	NNP	Gender=Masc|Number=Plur	9	nmod	_	_
 13	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
 14	Her	Her	PROPN	NNP	Gender=Masc|Number=Sing	9	appos	_	_
@@ -21959,7 +21959,7 @@
 12	dentro	dentro	ADV	RB	_	8	advmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	15	case	_	_
-14	o	o	DET	_	Gender=Masc|Number=Sing	15	det	_	_
+14	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	MGB	MGB	PROPN	NNP	Gender=Masc|Number=Sing	12	obl	_	_
 16	para	para	ADP	IN	_	17	case	_	_
 17	combater	_	VERB	VB	_	8	xcomp	_	_
@@ -22124,7 +22124,7 @@
 18	centrado	_	VERB	VBN	Gender=Masc|Number=Sing	15	acl	_	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	INDT	_	22	case	_	_
-20	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
+20	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	vilão	vilão	ADJ	JJ	Gender=Masc|Number=Sing	22	amod	_	_
 22	Thanos	Thanos	PROPN	NNP	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	_	_
@@ -22283,7 +22283,7 @@
 11	fragrância	fragrância	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	ToDo=nmod
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	14	case	_	_
-13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Yves	Yves	PROPN	NNP	Gender=Masc|Number=Sing	11	nmod	_	_
 15	Saint	Saint	PROPN	NNP	Gender=Masc|Number=Sing	14	flat:name	_	_
 16	Laurent	Laurent	PROPN	NNP	Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
@@ -22345,11 +22345,11 @@
 7	apareceu	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	brevemente	brevemente	ADV	RB	_	7	advmod	_	_
 9	em	em	ADP	IN	_	11	case	_	_
-10	Os	o	DET	DT	Gender=Masc|Number=Plur	11	det	_	Proper=True
+10	Os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	11	det	_	Proper=True
 11	Muppets	Muppets	PROPN	NNP	Gender=Masc|Number=Plur	7	obl	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	14	case	_	_
-13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
 15	como	como	ADP	IN	_	16	case	_	_
 16	recepcionista	recepcionista	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
@@ -22508,7 +22508,7 @@
 8	Conselho	conselho	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	Proper=True|SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	_	_
 10	visitou	visitar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-11	a	o	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Alemanha	Alemanha	PROPN	NNP	Gender=Fem|Number=Sing	10	obj	_	_
 13	confidencialmente	confidencialmente	ADV	RB	_	10	advmod	_	_
 14	em	em	ADP	IN	_	15	case	_	_
@@ -22549,10 +22549,10 @@
 17	,	,	PUNCT	,	_	1	punct	_	_
 18	Chamberlain	Chamberlain	PROPN	NNP	Gender=Masc|Number=Sing	19	nsubj	_	_
 19	culpou	culpar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-20	a	o	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
+20	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Alemanha	Alemanha	PROPN	NNP	Gender=Fem|Number=Sing	19	obj	_	_
 22	e	e	CCONJ	CC	_	24	cc	_	_
-23	a	o	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Áustria	Áustria	PROPN	NNP	Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	19	punct	_	_
 
@@ -22576,7 +22576,7 @@
 13	alemães	alemão	ADJ	JJ	Gender=Masc|Number=Plur	12	amod	_	_
 14-15	dos	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	16	case	_	_
-15	os	o	DET	_	Gender=Masc|Number=Plur	16	det	_	_
+15	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	Sudetas	Sudetas	PROPN	NNP	Gender=Masc|Number=Plur	12	nmod	_	_
 17	que	_	PRON	WP	_	18	nsubj	_	_
 18	tentavam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	12	acl:relcl	_	_
@@ -22584,7 +22584,7 @@
 20	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	fronteira	_	NOUN	NN	Gender=Fem|Number=Sing	19	obj	_	_
 22	para	para	ADP	IN	_	24	case	_	_
-23	a	o	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Checoslováquia	Checoslováquia	PROPN	NNP	Gender=Fem|Number=Sing	19	obl	_	_
 25	sem	_	ADP	IN	_	26	case	_	_
 26	parar	_	VERB	VB	_	19	xcomp	_	_
@@ -22864,7 +22864,7 @@
 9	apareceu	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	CTV	CTV	PROPN	NNP	Gender=Fem|Number=Sing	9	obl	_	_
 13	Montreal	Montreal	PROPN	NNP	Gender=Fem|Number=Sing	12	appos	_	_
 14	como	como	ADP	IN	_	15	case	_	_
@@ -23115,7 +23115,7 @@
 24	reféns	refém	NOUN	NN	Gender=Masc|Number=Plur	22	nmod	_	_
 25-26	no	_	_	_	_	_	_	_	_
 25	em	em	ADP	INDT	_	27	case	_	_
-26	o	o	DET	_	Gender=Masc|Number=Sing	27	det	_	_
+26	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Iran	Iran	PROPN	NNP	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	16	punct	_	_
 
@@ -23353,7 +23353,7 @@
 28	,	,	PUNCT	,	_	31	punct	_	_
 29-30	dos	_	_	_	_	_	_	_	_
 29	de	de	ADP	INDT	_	31	case	_	_
-30	os	o	DET	_	Gender=Masc|Number=Plur	31	det	_	_
+30	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	Scritti	Scritti	PROPN	NNP	Gender=Masc|Number=Plur	24	nmod	_	_
 32	Politti	Politti	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Plur	31	flat	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	35	punct	_	_
@@ -23538,7 +23538,7 @@
 9	reconhecimento	reconhecimento	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Albânia	Albânia	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -23594,7 +23594,7 @@
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	decidiram	decidir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 7	que	que	SCONJ	IN	_	10	mark	_	_
-8	a	o	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Albânia	Albânia	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 10	estaria	estar	VERB	VBC	Mood=Cnd|Number=Sing|Person=3	6	ccomp	_	_
 11	sob	_	ADP	IN	_	12	case	_	_
@@ -23623,7 +23623,7 @@
 8	Otomano	otomano	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	Proper=True
 9	perderia	perder	VERB	VBC	Mood=Cnd|Number=Sing|Person=3	4	csubj	_	_
 10	toda	todo	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
-11	a	o	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Macedônia	Macedônia	PROPN	NNP	Gender=Fem|Number=Sing	9	obj	_	_
 13	e	e	CCONJ	CC	_	16	cc	_	_
 14	a	o	DET	PDT	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -23631,7 +23631,7 @@
 16	ligação	ligação	NOUN	NN	Gender=Fem|Number=Sing	12	conj	_	_
 17	territorial	territorial	ADJ	JJ	Gender=Fem|Number=Sing	16	amod	_	_
 18	com	_	ADP	IN	_	20	case	_	_
-19	a	o	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
+19	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Albânia	Albânia	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	1	punct	_	_
 22	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
@@ -23676,7 +23676,7 @@
 21	reivindicado	_	VERB	VBN	Gender=Masc|Number=Sing	20	acl	_	_
 22-23	pela	_	_	_	_	_	_	_	_
 22	por	por	ADP	INDT	_	24	case	_	_
-23	a	o	DET	_	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Albânia	Albânia	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	26	punct	_	_
 26	independentemente	independentemente	ADV	RB	_	14	advmod	_	_
@@ -23700,7 +23700,7 @@
 42	território	território	NOUN	NN	Gender=Masc|Number=Sing	40	obj	_	_
 43-44	da	_	_	_	_	_	_	_	_
 43	de	de	ADP	INDT	_	45	case	_	_
-44	a	o	DET	_	Gender=Fem|Number=Sing	45	det	_	_
+44	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	Albânia	Albânia	PROPN	NNP	Gender=Fem|Number=Sing	42	nmod	_	_
 46	a	_	ADP	IN	_	48	case	_	_
 47	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	48	det	_	_
@@ -24024,7 +24024,7 @@
 16	número	número	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Grã	Grã	PROPN	NNP	Gender=Fem|Number=Sing	13	obl	_	_
 20	Bretanha	_	X	GW	_	19	compound	_	Proper=True|SpaceAfter=No
 21	.	.	PUNCT	.	_	13	punct	_	_
@@ -24034,7 +24034,7 @@
 # sent_id = n02027019
 # text = A Rússia anunciou a suspensão do contrato no início de outubro.
 # text_en = Russia announced a suspension of the contract at the beginning of October.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	anunciou	anunciar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -24075,7 +24075,7 @@
 17	em	em	ADP	IN	_	18	case	_	_
 18	ação	ação	NOUN	NN	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 19	:	:	PUNCT	:	_	24	punct	_	_
-20	os	o	DET	DT	Gender=Masc|Number=Plur	21	det	_	_
+20	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	24	nsubj	_	_
 22	teriam	_	AUX	VBC	Mood=Cnd|Number=Plur|Person=3	24	aux	_	_
 23	que	_	ADP	IN	_	22	fixed	_	_
@@ -24093,7 +24093,7 @@
 34	uniram	unir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	31	acl:relcl	_	_
 35-36	à	_	_	_	_	_	_	_	_
 35	a	a	ADP	INDT	_	37	case	_	_
-36	a	o	DET	_	Gender=Fem|Number=Sing	37	det	_	_
+36	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	OTAN	OTAN	PROPN	NNP	Gender=Fem|Number=Sing	34	obl	_	_
 38	depois	depois	ADV	RB	_	34	advmod	_	_
 39	de	de	ADP	IN	_	40	case	_	_
@@ -24104,7 +24104,7 @@
 44	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
 45	sanções	sanção	NOUN	NN	Gender=Fem|Number=Plur	42	obj	_	_
 46	contra	_	ADP	IN	_	48	case	_	_
-47	a	o	DET	DT	Gender=Fem|Number=Sing	48	det	_	_
+47	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	,	_	53	punct	_	_
 50	assim	assim	ADV	RB	_	53	cc	_	_
@@ -24210,7 +24210,7 @@
 29	exterior	exterior	ADJ	JJ	Gender=Masc|Number=Sing	28	amod	_	_
 30-31	dos	_	_	_	_	_	_	_	_
 30	de	de	ADP	INDT	_	32	case	_	_
-31	os	o	DET	_	Gender=Masc|Number=Plur	32	det	_	_
+31	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	20	nmod	_	_
 33	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	acl:relcl	_	_
 34	em	em	ADP	IN	_	36	case	_	_
@@ -24521,7 +24521,7 @@
 7	Aberto	aberto	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	Proper=True
 8-9	da	_	_	_	_	_	_	_	Proper=True
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	1	punct	_	_
 12	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -24641,7 +24641,7 @@
 6	vídeo	vídeo	NOUN	NN	Gender=Masc|Number=Sing	4	obj	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	INDT	_	9	case	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Alemanha	Alemanha	PROPN	NNP	Gender=Fem|Number=Sing	4	obl	_	_
 10	não	não	ADV	RB	Polarity=Neg	12	advmod	_	_
 11	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
@@ -24702,7 +24702,7 @@
 13	contou	contar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 14-15	ao	_	_	_	_	_	_	_	_
 14	a	a	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
+15	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	SPIEGEL	SPIEGEL	PROPN	NNP	Gender=Masc|Number=Sing	13	obl	_	_
 17	que	que	SCONJ	IN	_	20	mark	_	_
 18	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
@@ -24755,7 +24755,7 @@
 14	pouso	pouso	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	INDT	_	17	case	_	_
-16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Boeing	Boeing	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	_
 18	que	_	PRON	WP	_	21	nsubj:pass	_	_
 19	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
@@ -24767,12 +24767,12 @@
 24	correntes	corrente	NOUN	NN	Gender=Fem|Number=Plur	21	obl	_	_
 25-26	na	_	_	_	_	_	_	_	_
 25	em	em	ADP	INDT	_	27	case	_	_
-26	a	o	DET	_	Gender=Fem|Number=Sing	27	det	_	_
+26	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Tanzânia	Tanzânia	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	31	punct	_	_
 29-30	na	_	_	_	_	_	_	_	_
 29	em	em	ADP	INDT	_	31	case	_	_
-30	a	o	DET	_	Gender=Fem|Number=Sing	31	det	_	_
+30	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	África	África	PROPN	NNP	Gender=Fem|Number=Sing	21	obl	_	_
 32	oriental	oriental	ADJ	JJ	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	4	punct	_	_
@@ -24912,7 +24912,7 @@
 # text_en = Dündar warned Europe about having too much understanding for Erdogan's course.
 1	Dündar	Dündar	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	avisou	avisar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	a	o	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
+3	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Europa	Europa	PROPN	NNP	Gender=Fem|Number=Sing	2	obj	_	_
 5	sobre	_	ADP	IN	_	8	case	_	_
 6	ser	_	AUX	VB	_	8	cop	_	_
@@ -24995,7 +24995,7 @@
 3	números	número	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj	_	_
 4-5	na	_	_	_	_	_	_	_	_
 4	em	em	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Ásia	Ásia	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 7	rapidamente	rapidamente	ADV	RB	_	8	advmod	_	_
 8	levantaram	levantar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -25263,7 +25263,7 @@
 8	conta	conta	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
-10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+10	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Twitter	Twitter	PROPN	NNP	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	_	_
 13	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
@@ -25313,7 +25313,7 @@
 7	Unidos	unido	ADJ	JJ	Gender=Masc|Number=Plur	6	amod	_	Proper=True
 8-9	da	_	_	_	_	_	_	_	Proper=True
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	América	América	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	_
 11	poderão	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut	12	aux	_	_
 12	eleger	_	VERB	VB	_	0	root	_	_
@@ -25368,7 +25368,7 @@
 3	islâmicos	islâmico	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	o	o	DET	_	Gender=Masc|Number=Sing	6	det	_	_
+5	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	AKP	AKP	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 7	consideraram	considerar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 8	essa	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
@@ -25614,7 +25614,7 @@
 2	União	união	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Force	Force	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
 6	Ouvrière	Ouvrière	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
 7	arrepende	arrepender	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -25877,7 +25877,7 @@
 1	De	_	ADP	IN	_	5	case	_	_
 2	acordo	acordo	NOUN	NN	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	_	ADP	IN	_	1	fixed	_	_
-4	o	o	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Le	Le	PROPN	NNP	Gender=Masc|Number=Sing	14	obl	_	_
 6	Figaro	Figaro	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	5	punct	_	_
@@ -25914,7 +25914,7 @@
 # sent_id = n03010019
 # text = A França não tem uma boa reputação.
 # text_en = France doesn't have a good reputation.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	França	França	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	não	não	ADV	RB	Polarity=Neg	4	advmod	_	_
 4	tem	ter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -26009,7 +26009,7 @@
 2	difícil	difícil	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 3	pensar	_	VERB	VB	_	2	csubj	_	_
 4	que	que	SCONJ	IN	_	7	mark	_	_
-5	a	o	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
 7	tem	ter	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
 8	menos	_	ADJ	JJR	Gender=Masc|Number=Plur	9	amod	_	_
@@ -26040,7 +26040,7 @@
 12	são	ser	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	acl:relcl	_	_
 13	completamente	completamente	ADV	RB	_	16	advmod	_	ToDo=ex-adp-child
 14	contra	_	ADP	IN	_	16	case	_	_
-15	a	o	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -26167,7 +26167,7 @@
 2	mestre	mestre	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	CGI	CGI	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 6	declarou	declarar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 7	em	em	ADP	IN	_	9	case	_	_
@@ -26212,7 +26212,7 @@
 13	topo	topo	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	INDT	_	16	case	_	_
-15	a	o	DET	_	Gender=Fem|Number=Sing	16	det	_	_
+15	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	UE	UE	PROPN	NNP	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -26601,7 +26601,7 @@
 # sent_id = n04010017
 # text = A Amazon se tornou a quarta empresa Americana com a maior capitalização de mercado, ultrapassando ExxonMobil.
 # text_en = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Amazon	Amazon	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	se	_	PRON	SE	Person=3	4	expl:pv	_	_
 4	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -26798,7 +26798,7 @@
 15	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	legislação	legislação	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	_
 17	que	_	PRON	WP	_	23	obj	_	ToDo=pobj
-18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Fátima	Fátima	PROPN	NNP	Gender=Fem|Number=Sing	23	nsubj	_	_
 20	Báñez	Báñez	PROPN	NNP	Gender=Fem|Number=Sing	19	flat:name	_	_
 21	mais	mais	ADV	RBR	_	23	advmod	_	_
@@ -26961,7 +26961,7 @@
 13	programa	programa	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14	Évole	Évole	PROPN	NNP	Gender=Masc|Number=Sing	13	appos	_	_
 15	que	que	SCONJ	IN	_	20	mark	_	_
-16	a	o	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
+16	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Espanha	Espanha	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	_
 18	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	_
 19	uma	um	DET	DT	Gender=Fem|Number=Sing	20	det	_	_
@@ -27285,7 +27285,7 @@
 14	reportou	reportar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	parataxis	_	_
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	INDT	_	17	case	_	_
-16	o	o	DET	_	Gender=Masc|Number=Sing	17	det	_	_
+16	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	El	El	PROPN	NNP	Gender=Masc|Number=Sing	14	obl	_	_
 18	Mundo	Mundo	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	17	flat	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	1	punct	_	_
@@ -27300,7 +27300,7 @@
 3	seguidores	seguidor	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	FSLN	FSLN	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 7	já	já	ADV	RB	_	9	advmod	_	_
 8	estão	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
@@ -27309,7 +27309,7 @@
 11	vitória	vitória	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	INDT	_	14	case	_	_
-13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Plaza	Plaza	PROPN	NNP	Gender=Fem|Number=Sing	9	obl	_	_
 15	de	de	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
 16	las	las	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
@@ -27344,7 +27344,7 @@
 18	judicial	judicial	ADJ	JJ	Gender=Fem|Number=Sing	17	amod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	21	case	_	_
-20	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
+20	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Brexit	Brexit	PROPN	NNP	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -27564,7 +27564,7 @@
 15	principalmente	principalmente	ADV	RB	_	18	advmod	_	ToDo=ex-adp-child
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	a	o	DET	_	Gender=Fem|Number=Sing	18	det	_	_
+17	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Turquia	Turquia	PROPN	NNP	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -27834,7 +27834,7 @@
 7	Ministro-presidente	ministro-presidente	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
-9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
+9	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Turquia	Turquia	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	Erdogan	Erdogan	PROPN	NNP	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
@@ -27846,7 +27846,7 @@
 18	governo	governo	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	_
 19	para	para	ADP	IN	_	20	case	_	_
 20	libertar	_	VERB	VB	_	16	xcomp	_	_
-21	o	o	DET	DT	Gender=Masc|Number=Sing	22	det	_	_
+21	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Bósforo	Bósforo	PROPN	NNP	Gender=Masc|Number=Sing	20	obj	_	_
 23	através	através	ADV	RB	_	26	case	_	_
 24-25	da	_	_	_	_	_	_	_	_
@@ -27899,7 +27899,7 @@
 2	Império	império	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj	_	Proper=True
 3	Otomano	otomano	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	Proper=True
 4	e	e	CCONJ	CC	_	6	cc	_	_
-5	a	o	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
+5	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Rússia	Rússia	PROPN	NNP	Gender=Fem|Number=Sing	2	conj	_	_
 7	tiveram	ter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 8	permissão	permissão	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
@@ -28224,7 +28224,7 @@
 5	antes	antes	ADV	RB	_	4	advmod	_	_
 6-7	na	_	_	_	_	_	_	_	_
 6	em	em	ADP	INDT	_	8	case	_	_
-7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Grã	Grã	PROPN	NNP	Gender=Fem|Number=Sing	5	obl	_	_
 9	Bretanha	_	X	GW	_	8	compound	_	Proper=True
 10-11	do	_	_	_	_	_	_	_	_
@@ -28319,7 +28319,7 @@
 10	países	país	NOUN	NN	Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
 12	como	como	ADP	IN	_	14	case	_	_
-13	a	o	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Finlândia	Finlândia	PROPN	NNP	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	Polônia	Polônia	PROPN	NNP	Gender=Fem|Number=Sing	14	conj	_	_
@@ -28350,7 +28350,7 @@
 9	pressão	pressão	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+11	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Hungria	Hungria	PROPN	NNP	Gender=Fem|Number=Sing	8	obl	_	_
 13	foi	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 14	ameaçar	_	VERB	VB	_	13	xcomp	_	_
@@ -28706,7 +28706,7 @@
 11	distinção	distinção	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	14	case	_	_
-13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	American	American	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
 15	Friendship	Friendship	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
 16	Medal	Medal	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
@@ -28722,7 +28722,7 @@
 25	relação	relação	NOUN	NN	Gender=Fem|Number=Sing	24	fixed	_	_
 26-27	aos	_	_	_	_	_	_	_	_
 26	a	a	ADP	INDT	_	24	fixed	_	_
-27	os	o	DET	_	Gender=Masc|Number=Plur	28	det	_	_
+27	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	EUA	EUA	PROPN	NNP	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -28847,7 +28847,7 @@
 1	Von	Von	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Bellingshausen	Bellingshausen	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	avistou	avistar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	a	o	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
+4	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Antártica	Antártica	PROPN	NNP	Gender=Fem|Number=Sing	3	obj	_	_
 6	em	em	ADP	IN	_	7	case	_	_
 7	27	_	NUM	CD	_	3	obl	_	_
@@ -28960,7 +28960,7 @@
 5	forçado	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 6	a	_	ADP	IN	_	7	case	_	_
 7	deixar	_	VERB	VB	_	5	xcomp	_	_
-8	a	o	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
+8	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Sicília	Sicília	PROPN	NNP	Gender=Fem|Number=Sing	7	obj	_	_
 10	para	para	ADP	IN	_	11	case	_	_
 11	tratar	_	VERB	VB	_	7	xcomp	_	_
@@ -28972,7 +28972,7 @@
 16	sul	sul	NOUN	NN	Gender=Masc|Number=Sing	11	obl	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	INDT	_	19	case	_	_
-18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -28989,7 +28989,7 @@
 4	VIII	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
 5	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	OrigForm=aC|SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
-7	a	o	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	11	nsubj	_	_
 9	começou	começar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux	_	_
 10	a	_	ADP	IN	_	9	fixed	_	_
@@ -29075,7 +29075,7 @@
 # sent_id = w03005015
 # text = A Grécia foi dividida em diversas pequenas comunidades auto-governadas; um padrão, em grande parte, ditado pela geografia grega: cada ilha, vale e planície é isolada de seus vizinhos pelo mar ou por cadeias de montanhas.
 # text_en = Greece was divided into many small, self-governing communities, a pattern largely dictated by Greek geography: every island, valley and plain is cut off from its neighbours by the sea or mountain ranges.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux:pass	_	_
 4	dividida	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
@@ -29228,7 +29228,7 @@
 11	avançados	avançado	ADJ	JJ	Gender=Masc|Number=Plur	9	amod	_	_
 12-13	pelo	_	_	_	_	_	_	_	_
 12	por	por	ADP	INDT	_	14	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	7	nmod	_	Proper=True|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	uma	um	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
@@ -29320,7 +29320,7 @@
 4	dinheiro	dinheiro	NOUN	NN	Gender=Masc|Number=Sing	1	obl	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	INDT	_	8	case	_	_
-6	o	o	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+6	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	próprio	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	Bernard	Bernard	PROPN	NNP	Gender=Masc|Number=Sing	4	nmod	_	_
 9	Tapie	Tapie	PROPN	NNP	Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
@@ -29419,7 +29419,7 @@
 10	morar	_	VERB	VB	_	8	xcomp	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	América	América	PROPN	NNP	Gender=Fem|Number=Sing	10	obl	_	_
 14-15	do	_	_	_	_	_	_	_	Proper=True
 14	de	de	ADP	INDT	_	16	case	_	_
@@ -29433,7 +29433,7 @@
 21	problemas	problema	NOUN	NN	Gender=Masc|Number=Plur	18	obl	_	_
 22-23	da	_	_	_	_	_	_	_	_
 22	de	de	ADP	INDT	_	24	case	_	_
-23	a	o	DET	_	Gender=Fem|Number=Sing	24	det	_	_
+23	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Bélgica	Bélgica	PROPN	NNP	Gender=Fem|Number=Sing	21	nmod	_	_
 25	pós-guerra	_	ADJ	JJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
@@ -29867,7 +29867,7 @@
 # sent_id = w04004051
 # text = A segunda Apúlia e Região Real Calabresa foram então estabelecidas, também incluindo Samnium, partes de Molise e da Basilicata oriental.
 # text_en = The second Apulian and Calabrian Royal Region was then established, also including Samnium, parts of Molise and the oriental Basilicata.
-1	A	o	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
+1	A	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	segunda	segundo	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	Apúlia	Apúlia	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 4	e	e	CCONJ	CC	_	5	cc	_	_
@@ -29888,7 +29888,7 @@
 19	e	e	CCONJ	CC	_	22	cc	_	ToDo=ex-adp-child
 20-21	da	_	_	_	_	_	_	_	ToDo=ex-adp-child
 20	de	de	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Basilicata	Basilicata	PROPN	NNP	Gender=Fem|Number=Sing	18	conj	_	_
 23	oriental	oriental	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
@@ -30014,7 +30014,7 @@
 23	artilheiro	_	ADJ	JJ	Gender=Masc|Number=Sing	22	amod	_	_
 24-25	da	_	_	_	_	_	_	_	_
 24	de	de	ADP	INDT	_	26	case	_	_
-25	a	o	DET	_	Gender=Fem|Number=Sing	26	det	_	_
+25	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Córsega	Córsega	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 27	:	:	PUNCT	:	_	28	punct	_	_
 28	Napoleão	Napoleão	PROPN	NNP	Gender=Masc|Number=Sing	22	appos	_	_
@@ -30050,7 +30050,7 @@
 20	desistir	_	VERB	VB	_	16	xcomp	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	INDT	_	23	case	_	_
-22	a	o	DET	_	Gender=Fem|Number=Sing	23	det	_	_
+22	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Itália	Itália	PROPN	NNP	Gender=Fem|Number=Sing	20	obl	_	_
 24-25	pela	_	_	_	_	_	_	_	_
 24	por	por	ADP	INDT	_	27	case	_	_
@@ -30470,7 +30470,7 @@
 10	oeste	oeste	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	América	América	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	Proper=True
 14	de	de	ADP	INDT	_	16	case	_	_
@@ -30491,13 +30491,13 @@
 # sent_id = w05002032
 # text = Os Andes centrais pertencem ao chamado "Andes de tipo andino", os quais foram formados pela subdução da crosta oceânica.
 # text_en = The central Andes belong to the so-called 'Andes de tipo andino' which were formed by the subduction of the oceanic crust.
-1	Os	o	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
+1	Os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Andes	Andes	PROPN	NNPS	Gender=Masc|Number=Plur	4	nsubj	_	Proper=True
 3	centrais	central	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	pertencem	pertencer	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5-6	ao	_	_	_	_	_	_	_	_
 5	a	a	ADP	INDT	_	9	case	_	_
-6	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
+6	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 7	chamado	chamado	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
 8	"	"	PUNCT	``	_	9	punct	_	SpaceAfter=No
 9	Andes	Andes	PROPN	NNPS	Gender=Masc|Number=Plur	4	obl	_	Proper=True
@@ -30748,7 +30748,7 @@
 2	chegaram	chegar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
-4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Canadá	Canadá	PROPN	NNP	Gender=Masc|Number=Sing	2	obl	_	_
 6	liderados	_	VERB	VBN	Gender=Masc|Number=Plur	2	acl	_	_
 7	por	por	ADP	IN	_	8	case	_	_
@@ -30950,7 +30950,7 @@
 34	Isabella	Isabella	PROPN	NNP	Gender=Fem|Number=Sing	32	obl	_	_
 35-36	da	_	_	_	_	_	_	_	Proper=True
 35	de	de	ADP	INDT	_	37	case	_	_
-36	a	o	DET	_	Gender=Fem|Number=Sing	37	det	_	_
+36	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	França	França	PROPN	NNP	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	,	_	39	punct	_	_
 39	tia	tio	NOUN	NN	Gender=Fem|Number=Sing	34	appos	_	_
@@ -30992,7 +30992,7 @@
 25	Reino	reino	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	Proper=True
 26-27	da	_	_	_	_	_	_	_	Proper=True
 26	de	de	ADP	INDT	_	28	case	_	_
-27	a	o	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+27	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	França	França	PROPN	NNP	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	8	punct	_	_
 
